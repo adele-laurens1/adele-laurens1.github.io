@@ -1,3 +1,58 @@
-p h1{
-    color: aliceblue;
+body {
+    background-image:url(../images/backgournd_accueil2.jpeg);
+}
+
+h1{
+    font-size: 90px;
+    color: #84BC9C;
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    color: #FFFDF7;
+    text-align: center;
+}
+
+button {
+display: inline-block;
+background-color: #84BC9C;
+border-radius: 10px;
+border: 4px double #cccccc;
+color: #eeeeee;
+margin: 0 auto;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+button span:after {
+content: "\00bb";
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+button:hover {
+background-color: #2CA58D;
+}
+button:hover span {
+padding-right: 25px;
+}
+button:hover span:after {
+opacity: 1;
+right: 0;
+} 
+
+form{
+text-align:center;
 }
