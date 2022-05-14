@@ -7,10 +7,63 @@
         <title>
             Accueil
         </title>
-        <link rel="stylesheet" href="/css/css.css">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/accueil.css">
+        <script src="/js/navbar.js"></script>
 
         <style>
 
+        body {
+            margin: 0;
+            background-image:url(../images/background_accueil.png);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            text-align: center;
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        .sous_menu {
+            background-color: burlywood; 
+            height: 4%;
+            text-align: center;
+        }
+
+
+        /* pour l'acceuil */
+        p{
+            font-size: 40px;
+            color: palevioletred;
+        }
+
+        h1{
+            font-size: 100px;
+            color: palevioletred;
+        }
             
         </style>
 
@@ -18,6 +71,7 @@
 
         <script>
 
+        
 
         function menuDeroulant(id)
         {
@@ -62,14 +116,14 @@
                 <li ><a class="active" href="/view/accueil.html">Accueil</a></li>
 
                 <!-- a propos de moi -->
-                <li id="aboutMe" onclick="menuDeroulant('aboutMe');">A propos de moi</li>
+                <li id="aboutMe" class="sous_menu" onclick="menuDeroulant('aboutMe');">A propos de moi</li>
 
                 <li id="portrait" style="display: none;"><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
                 <li id="competences" style="display: none;" ><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
                 <li id="musique" style="display: none;"><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
 
                 <!-- a propos de mon parcours -->
-                <li id="school" onclick="menuDeroulant('school');">A propos de mon parcours</li>
+                <li id="school" class="sous_menu" onclick="menuDeroulant('school');">A propos de mon parcours</li>
 
                 <li id="parcours" style="display: none;"><a href="/view/school/mycareer.html">Mon parcours</a></li>
                 <li id="projet" style="display: none;"><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
@@ -77,11 +131,20 @@
                 <li><a href="/view/CV.html">Mon CV</a></li>
             </ul>
         
-        </header>
+        </header>   
 
         <main>
 
-            coucou
+            <div style="margin-left:25%;padding:1px 16px;">
+                <h1>Laurens Adèle</h1>
+                <p>Etudiante en L3 infromatique</p>
+                <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
+                <p>Age : 20 ans</p>
+                <p>Mail: adele.laurens@orange.fr</p>
+                <p>Adresse: Avenue Edmond Grasset Aytré</p>
+                <p>Téléphone: 07 84 34 98 12</p>
+                <a href="mailto:adele.laurens123@gmail.com">Contacter</a>
+            </div>
 
         </main>
 

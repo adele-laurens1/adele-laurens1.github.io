@@ -2,38 +2,45 @@
 
 <html lang="fr">
     <head>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            Accueil
+            Projets
         </title>
         <link rel="stylesheet" href="/css/css.css">
-  
+        <script src="/js/navbar.js"></script> 
+       
     </head>
 
     <body>
 
         <header>
 
-            <ul>
-                <li><a href="/view/accueil.html">Accueil</a></li>
-                <ul>
-                    <li><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
-                    <li><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
-                    <li><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
-                </ul>
-                <ul>
-                    <li><a href="/view/school/mycareer.html">Mon parcours</a></li>
-                    <li><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
-                </ul>
+            <ul >
+                <li ><a class="active" href="/view/accueil.html">Accueil</a></li>
+
+                <!-- a propos de moi -->
+                <li id="aboutMe" class="sous_menu" onclick="menuDeroulant('aboutMe');">A propos de moi</li>
+
+                <li id="portrait" style="display: none;"><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
+                <li id="competences" style="display: none;" ><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
+                <li id="musique" style="display: none;"><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
+
+                <!-- a propos de mon parcours -->
+                <li id="school" class="sous_menu" onclick="menuDeroulant('school');">A propos de mon parcours</li>
+
+                <li id="parcours" style="display: none;"><a href="/view/school/mycareer.html">Mon parcours</a></li>
+                <li id="projet" style="display: none;"><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+
                 <li><a href="/view/CV.html">Mon CV</a></li>
             </ul>
-
+        
         </header>
 
         <main>
 
-            coucou
+           
 
         </main>
 
