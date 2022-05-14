@@ -3,23 +3,25 @@ body {
 }
 
 h1{
-    font-size: 90px;
+    font-size: 75px;
     color: #84BC9C;
     text-align: center;
 }
 
 p{
-    font-size: 40px;
+    font-size: 35px;
     color: #FFFDF7;
     text-align: center;
 }
+
+
 
 button {
 display: inline-block;
 background-color: #84BC9C;
 border-radius: 10px;
-border: 4px double #cccccc;
-color: #eeeeee;
+border: 4px double #FFFDF7;
+color: #FFFDF7;
 margin: 0 auto;
 font-size: 28px;
 padding: 20px;
