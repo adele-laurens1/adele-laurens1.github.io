@@ -30,3 +30,9 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+#aboutMe  #school {
+    background-color: burlywood; 
+    height: 4%;
+    text-align: center;
+}
