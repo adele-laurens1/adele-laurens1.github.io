@@ -7,22 +7,7 @@
         <title>
             Accueil
         </title>
-        <link rel="stylesheet" href="/librairies/bootstrap/css/bootstrap.min.css">
-        <script src="/librairies/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-        <style>
-            /* Set the border color */
-            
-            .custom-toggler.navbar-toggler {
-                border-color: lightgreen;
-            }
-            /* Setting the stroke to green using rgb values (0, 128, 0) */
-            
-            .custom-toggler .navbar-toggler-icon {
-                background-image: url(
-        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-            }
-        </style>
+        <link rel="stylesheet" href="/css/css.css">
   
     </head>
 
@@ -30,70 +15,25 @@
 
         <header>
 
-            <nav class="navbar navbar-black bg-dark fixed-top">
-                <div class="container-fluid">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-
-                        <div class="offcanvas-body">
-
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="/view/accueil.html">Accueil</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        A propos de moi
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
-                                        <li><a class="dropdown-item" href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
-                                        <li><a class="dropdown-item" href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="/view/school/mycareer.html">Mon parcours</a></li>
-                                        <li><a class="dropdown-item" href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="/view/CV.html">Mon CV</a>
-                                </li>
-                            
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
+            <ul>
+                <li><a href="/view/accueil.html">Accueil</a></li>
+                <ul>
+                    <li><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
+                    <li><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
+                    <li><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/view/school/mycareer.html">Mon parcours</a></li>
+                    <li><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+                </ul>
+                <li><a href="/view/CV.html">Mon CV</a></li>
+            </ul>
 
         </header>
 
         <main>
 
-            <div class="container">
-                <h1 style="color: green">GeeksforGeeks</h1>
-                <b>How to change Hamburger Toggler color in Bootstrap ?</b>
-                <p>The above togglers use the a custom classe for the toggler.</p>
-            </div>
+            coucou
 
         </main>
 
