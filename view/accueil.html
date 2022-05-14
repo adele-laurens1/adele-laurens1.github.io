@@ -8,27 +8,99 @@
             Accueil
         </title>
         <link rel="stylesheet" href="/css/css.css">
-  
+
+        <style>
+
+
+            body {
+            margin: 0;
+            }
+
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            }
+
+            li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            }
+
+            li a.active {
+            background-color: #04AA6D;
+            color: white;
+            }
+
+            li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+            }
+        </style>
+
+
+
+        <script>
+
+
+        function menuDeroulant(id)
+        {
+            
+            if(id == 'aboutMe'){
+                var etat = document.getElementById("portrait").style.display;
+                if(etat == 'none'){
+                    document.getElementById("portrait").style.display = 'block';
+                    document.getElementById("competences").style.display = 'block';
+                    document.getElementById("musique").style.display = 'block';
+                }
+                else{
+                    document.getElementById("portrait").style.display = 'none';
+                    document.getElementById("competences").style.display = 'none';
+                    document.getElementById("musique").style.display = 'none';
+                }
+            }
+            else{
+                var etat = document.getElementById("parcours").style.display;
+                if(etat == 'none'){
+                    document.getElementById("parcours").style.display = 'block';
+                    document.getElementById("projet").style.display = 'block';
+                }
+                else{
+                    document.getElementById("parcours").style.display = 'none';
+                    document.getElementById("projet").style.display = 'none';
+                }
+            }
+        }
+
+
+        </script>
+
+       
     </head>
 
     <body>
 
         <header>
 
-            <ul>
-                <li><a href="/view/accueil.html">Accueil</a></li>
-                <ul>
-                    <li><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
-                    <li><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
-                    <li><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
-                </ul>
-                <ul>
-                    <li><a href="/view/school/mycareer.html">Mon parcours</a></li>
-                    <li><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
-                </ul>
+            <ul >
+                <li ><a class="active" href="/view/accueil.html">Accueil</a></li>
+                <li id="aboutMe" style="background-color: burlywood; height: 4%;" onclick="menuDeroulant('aboutMe');">A propos de moi</li>
+                <li id="portrait" style="display: none;"><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
+                <li id="competences" style="display: none;" ><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
+                <li id="musique" style="display: none;"><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
+                <li id="school" style="background-color: burlywood; height: 4%;" onclick="menuDeroulant('school');">Sur mon parcours</li>
+                <li id="parcours" style="display: none;"><a href="/view/school/mycareer.html">Mon parcours</a></li>
+                <li id="projet" style="display: none;"><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
                 <li><a href="/view/CV.html">Mon CV</a></li>
             </ul>
-
+        
         </header>
 
         <main>
