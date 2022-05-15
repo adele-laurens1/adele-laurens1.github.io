@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
-        <title>
-            Accueil
-        </title>
-        <link rel="stylesheet" href="/css/navbar.css">
-        <link rel="stylesheet" href="/css/accueil.css">
-        <link rel="stylesheet" href="/css/footer.css">
-        <script src="/js/navbar.js"></script>
-       
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
+    <title>
+        Accueil
+    </title>
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/accueil.css">
+    <script src="../js/navbar.js"></script>
+      
+  </head>
 
-    <body>
+  <body>
 
-        <header>
+    <header class="site-header">
 
-            <ul >
-                <li ><a class="active" href="/view/accueil.html">Accueil</a></li>
+      <nav>
+        <ul class="menu">
 
-                <!-- a propos de moi -->
-                <li id="aboutMe" class="sous_menu" onclick="menuDeroulant('aboutMe');">A propos de moi</li>
+          <li>
+            <a href="accueil.html">Accueil</a>
+          </li>
 
-                <li id="portrait" style="display: none;"><a href="/view/aboutMe/myDescription.html">Mon portrait</a></li>
-                <li id="competences" style="display: none;" ><a href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
-                <li id="musique" style="display: none;"><a href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
-
-                <!-- a propos de mon parcours -->
-                <li id="school" class="sous_menu" onclick="menuDeroulant('school');">A propos de mon parcours</li>
-
-                <li id="parcours" style="display: none;"><a href="/view/school/mycareer.html">Mon parcours</a></li>
-                <li id="projet" style="display: none;"><a href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
-
-                <li><a href="/view/CV.html">Mon CV</a></li>
+          <li>
+            A propos de moi
+            <ul class="sub-menu">
+              <li><a href="../view/aboutMe/myDescription.html">Mon portrait</a></li>
+              <li><a href="../view/aboutMe/mySkill.html">Mes compétences</a></li>
+              <li><a href="../view/aboutMe/music.html">Une musique qui me représente</a></li>
             </ul>
+          </li>
+
+          <li>
+            A propos de mon parcours
+            <ul class="sub-menu">
+              <li><a href="../view/school/mycareer.html">Mon parcours</a></li>
+              <li><a href="../view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="../view/CV.html">Mon CV</a>
+          </li>
+
+        </ul>
+      </nav>
+    
+    </header>   
+
+    <main class="site-content">
+
+      <div class="contenant">
+
+        <div>
+          <a href="../documents/CV.pdf" download="CV_Adele_Laurens">
+            <button type="button"><span>Télécharger mon CV</span></button>
+          </a>
+        </div>
         
-        </header>   
+        <h1>Mon CV en vidéo lors de ma seconde années d'étude (DUT)</h1>
+        
+        <div>
+          <iframe width="1180" height="664" src="https://www.youtube.com/embed/VxJWXbvPr5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
 
-        <main>
+      </div>
+    </main>
 
-            <div class="contenant">
-                <h1>Laurens Adèle</h1>
-                <p>Etudiante en L3 informatique</p>
-                <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-                <p>Age : 20 ans</p>
-                <p>Mail: adele.laurens123@gmail.com</p>
-                <p>Adresse: Avenue Edmond Grasset Aytré</p>
-                <p>Téléphone: 07 84 34 98 12</p>
-                <form>
-                    <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-                </form>
-            </div>
+    <footer class="site-footer">
 
-        </main>
+      <div class="footer-content contenant">
 
-        <footer>
-            <div class="footer-content contenant">
+        <div class="div_footer"><p id="footer_text">Crée par Adèle Laurens</p> </div>
 
-                <div><p id="footer_text">Crée par Adèle Laurens</p> </div>
+        <div class="div_footer">
+            <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="../pictures/logo_github.png" width="30" height="30" alt="github" /></a>
+            &nbsp;
+            <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="../pictures/logo_linkedin.png" width="30" height="30" alt="linkedin" /></a>
+        </div>
 
-                <div>
-                    <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="/images/logo_github.png" width="30" height="30" alt="github" /></a>
-                    &nbsp;
-                    <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="/images/logo_linkedikn.png" width="30" height="30" alt="linkedin" /></a>
-                </div>
+      </div>
+        
+    </footer>
 
-            </div>
-            
-        </footer>
-
-    </body>
+  </body>
 
 </html>
 
