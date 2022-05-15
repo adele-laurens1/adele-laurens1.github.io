@@ -3,14 +3,13 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
     <title>
         Accueil
     </title>
-    <link rel="stylesheet" href="../css/page.css">
-    <link rel="stylesheet" href="../css/accueil.css">
-    <script src="../js/navbar.js"></script>
+    <link rel="stylesheet" href="../../css/page.css">
+    <link rel="stylesheet" href="../../css/project_professionalExperiences.css">
       
   </head>
 
@@ -28,22 +27,22 @@
           <li>
             A propos de moi
             <ul class="sub-menu">
-              <li><a href="../view/aboutMe/myDescription.html">Mon portrait</a></li>
-              <li><a href="../view/aboutMe/mySkill.html">Mes compétences</a></li>
-              <li><a href="../view/aboutMe/music.html">Une musique qui me représente</a></li>
+              <li><a href="../../view/aboutMe/myDescription.html">Mon portrait</a></li>
+              <li><a href="../../view/aboutMe/mySkill.html">Mes compétences</a></li>
+              <li><a href="../../view/aboutMe/music.html">Une musique qui me représente</a></li>
             </ul>
           </li>
 
           <li>
             A propos de mon parcours
             <ul class="sub-menu">
-              <li><a href="../view/school/mycareer.html">Mon parcours</a></li>
-              <li><a href="../view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+              <li><a href="../../view/school/mycareer.html">Mon parcours</a></li>
+              <li><a href="../../view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
             </ul>
           </li>
 
           <li>
-            <a href="../view/CV.html">Mon CV</a>
+            <a href="../../view/CV.html">Mon CV</a>
           </li>
 
         </ul>
@@ -55,17 +54,68 @@
 
       <div class="contenant">
 
-        <h1>Laurens Adèle</h1>
-        <p>Etudiante en L3 informatique</p>
-        <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-        <p>Age : 20 ans</p>
-        <p>Mail: adele.laurens123@gmail.com</p>
-        <p>Adresse: Avenue Edmond Grasset Aytré</p>
-        <p>Téléphone: 07 84 34 98 12</p>
-
-        <form>
-            <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-        </form>
+        <div class="col-sm-7 mx-auto">
+          <header class="section-header text-center">
+            <span class="h1 d-block">
+              <span>❝</span>
+            </span>
+            <h2>Happy Customers</h2>
+          </header>
+        </div>
+        
+        <div id="flex-container" class="testimonials">
+          <div id="left-zone">
+            <ul class="list">
+              <li class="item">
+                <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+                <label class="label_testimonial-1" for="radio_testimonial-1">Diamond Pest Elimination</label>
+                <div class="content-test content_testimonial-1">
+                  <span class="picto"></span>
+                  <h1>Diamond Pest Elimination</h1>
+                  <p>“The team really takes pride in their work. If I didn’t know any better I would think they actually worked for my company.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Rochester, NY</p>
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+                <label class="label_testimonial-2" for="radio_testimonial-2">A+ Handyman Service</label>
+                <div class="content-test content_testimonial-2">
+                  <span class="picto"></span>
+                  <h1>A+ Handyman Service</h1>
+                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Tucson, AZ</p>
+                  <br>
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+                <label class="label_testimonial-3" for="radio_testimonial-3">Mod Movers</label>
+                <div class="content-test content_testimonial-3">
+                  <span class="picto"></span>
+                  <h1>Mod Movers</h1>
+                  <p>“I couldn’t believe it. I actually had to hire someone to help me keep up with the new business. I had no idea my website had so much value.”</p>
+                  <p class="testimonialFrom">Marlene, Owner</p>
+                  <p class="testimonialState">Monterey, CA</p>
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+                <label class="label_testimonial-4" for="radio_testimonial-4">AK Pest Control</label>
+                <div class="content-test content_testimonial-4">
+                  <span class="picto"></span>
+                  <h1>AK Pest Control</h1>
+                  <p>Great company to send leads. Very efficient and pleased with the services. We get lots of leads and that whats important. Support is also great from the managers/support. Thanks YPC Chat</p>
+                  <p class="testimonialFrom">Mark, Owner</p>
+                  <p class="testimonialState">Somerset, VA</p>
+                  <br>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="right-zone"></div>
+        </div>
 
       </div>
     </main>
@@ -77,9 +127,9 @@
         <div class="div_footer"><p id="footer_text">Crée par Adèle Laurens</p> </div>
 
         <div class="div_footer">
-            <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="../pictures/logo_github.png" width="30" height="30" alt="github" /></a>
+            <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="../../pictures/logo_github.png" width="30" height="30" alt="github" /></a>
             &nbsp;
-            <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="../pictures/logo_linkedin.png" width="30" height="30" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="../../pictures/logo_linkedin.png" width="30" height="30" alt="linkedin" /></a>
         </div>
 
       </div>
@@ -90,3 +140,4 @@
 
 </html>
 
+<script src="../../js/project_professionalExperiences.js"></script>

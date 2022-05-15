@@ -5,7 +5,7 @@
 }
 
 html {
-    background: url("../pictures/background_bureau.jpg") center;
+    background: url("../pictures/background_accueil.webp") center;
     background-size: cover;
     font-family: "Helvetica Neue", sans-serif;
 }
@@ -19,9 +19,22 @@ html {
 }
 
 h1 {
+    font-size: 50px;
     color: white;
     text-align: center;
     margin-top: 1em;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.niv_etude{
+    color: #78586F;
+}
+
+.text_caroussel{
+    color: #7B9EA8;
 }
 
 .container {
@@ -33,8 +46,8 @@ h1 {
 
 .card-carousel {
     --card-width: 80%;
-    --card-max-width: 280px;
-    --card-height: 350px;
+    --card-max-width: 400px;
+    --card-height: 500px;
     --carousel-min-width: 600px;
     z-index: 1;
     position: relative;
