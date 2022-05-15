@@ -8,9 +8,9 @@
     <title>
         Accueil
     </title>
-    <link rel="stylesheet" href="../css/page.css">
-    <link rel="stylesheet" href="../css/accueil.css">
-    <script src="../js/navbar.js"></script>
+    <link rel="stylesheet" href="../../css/page.css">
+    <link rel="stylesheet" href="../../css/mycareer.css">
+    
       
   </head>
 
@@ -28,22 +28,22 @@
           <li>
             A propos de moi
             <ul class="sub-menu">
-              <li><a href="../view/aboutMe/myDescription.html">Mon portrait</a></li>
-              <li><a href="../view/aboutMe/mySkill.html">Mes compétences</a></li>
-              <li><a href="../view/aboutMe/music.html">Une musique qui me représente</a></li>
+              <li><a href="../../view/aboutMe/myDescription.html">Mon portrait</a></li>
+              <li><a href="../../view/aboutMe/mySkill.html">Mes compétences</a></li>
+              <li><a href="../../view/aboutMe/music.html">Une musique qui me représente</a></li>
             </ul>
           </li>
 
           <li>
             A propos de mon parcours
             <ul class="sub-menu">
-              <li><a href="../view/school/mycareer.html">Mon parcours</a></li>
-              <li><a href="../view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+              <li><a href="../../view/school/mycareer.html">Mon parcours</a></li>
+              <li><a href="../../view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
             </ul>
           </li>
 
           <li>
-            <a href="../view/CV.html">Mon CV</a>
+            <a href="../../view/CV.html">Mon CV</a>
           </li>
 
         </ul>
@@ -52,22 +52,37 @@
     </header>   
 
     <main class="site-content">
+          
+      <h1>Drag the cards to move them</h1>
 
-      <div class="contenant">
-
-        <h1>Laurens Adèle</h1>
-        <p>Etudiante en L3 informatique</p>
-        <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-        <p>Age : 20 ans</p>
-        <p>Mail: adele.laurens123@gmail.com</p>
-        <p>Adresse: Avenue Edmond Grasset Aytré</p>
-        <p>Téléphone: 07 84 34 98 12</p>
-
-        <form>
-            <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-        </form>
-
+      <div class="container">
+        <div class="card-carousel">
+          <div class="card" id="1">
+            <div class="image-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+          </div>
+          <div class="card" id="2">
+            <div class="image-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+          </div>
+          <div class="card" id="3">
+            <div class="image-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+          </div>  
+          <div class="card" id="4">
+            <div class="image-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+          </div>
+          <div class="card" id="5">
+            <div class="image-container"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
       </div>
+      <!-- 
+      <h2>Check out <a target="_blank" href="https://codepen.io/WillyW/pen/RwRrvjv">Circle Carousel</a></h2> -->
+
     </main>
 
     <footer class="site-footer">
@@ -77,9 +92,9 @@
         <div class="div_footer"><p id="footer_text">Crée par Adèle Laurens</p> </div>
 
         <div class="div_footer">
-            <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="../pictures/logo_github.png" width="30" height="30" alt="github" /></a>
+            <a href="https://github.com/adele-laurens1/adele-laurens1.github.io" title= "github"><img src="../../pictures/logo_github.png" width="30" height="30" alt="github" /></a>
             &nbsp;
-            <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="../pictures/logo_linkedin.png" width="30" height="30" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/in/adele-laurens/" title= "linkedin"><img src="../../pictures/logo_linkedin.png" width="30" height="30" alt="linkedin" /></a>
         </div>
 
       </div>
@@ -90,3 +105,4 @@
 
 </html>
 
+<script src="../../js/mycareer.js"></script>
