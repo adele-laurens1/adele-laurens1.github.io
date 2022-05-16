@@ -5,7 +5,6 @@
 html {
     background: url("../pictures/background_accueil.webp") center;
     background-size: cover;
-    font-family: "Helvetica Neue", sans-serif;
 }
 
 .visuallyhidden {
