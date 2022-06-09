@@ -21,3 +21,8 @@ p{
     width : auto;
     object-fit: cover;
 }
+
+div#div-texte{
+    display: inline-block;
+    max-width: 75%;
+}
