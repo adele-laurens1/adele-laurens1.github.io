@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
     <title>
-        Projet Escape Game
+        Projet S3 Escape Game
     </title>
     <link rel="stylesheet" href="../../../css/page.css">
-    <link rel="stylesheet" href="../../../css/accueil.css">
+    <link rel="stylesheet" href="../../../css/escapeGame.css">
     <script src="../../../js/navbar.js"></script>
+    <script src="../../../js/escapeGame.js"></script>
       
   </head>
 
@@ -56,17 +57,85 @@
 
       <div class="contenant">
 
-        <h1>Laurens Adèle</h1>
-        <p>Etudiante en L3 informatique</p>
-        <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-        <p>Age : 20 ans</p>
-        <p>Mail: adele.laurens123@gmail.com</p>
-        <p>Adresse: Avenue Edmond Grasset Aytré</p>
-        <p>Téléphone: 07 84 34 98 12</p>
+        <h1>Projet S3 Escape Game</h1>
 
-        <form>
-            <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-        </form>
+        <div id="slider">
+          <img src="../../../pictures/projetS3_escapeGame_miniature.webp" alt="La forêt de peupliers" id="slide">
+          <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+          <div id="suivant" onclick="ChangeSlide(1)">></div>
+        </div>
+
+        <!-- Objectifs avant de travailler: -->
+        
+        <div id="div-texte">
+          <h2>
+            Mes objectifs avant de travailler de créer cet escape game: 
+          </h2>
+          <ul class="ul_list-inside">
+            <li>Réutiliser les connaissances du projet IHM de l’année précédente afin de pouvoir les utiliser dans ce projet et même m’améliorer</li>
+            <li>Travailler en équipe</li>
+            <li>En apprendre plus en JavaFX, gitHub</li>
+            <li>Arriver à vraiment être autonome pour un projet</li>
+          </ul>
+        </div>
+
+        <!-- Contexte  -->
+        <div id="div-texte">
+          <h2>
+            Contexte:
+          </h2>
+          <p>Pour ce projet, nous devions créer un jeu dans le style Cube Escape (jeu mobile) par équipe de 4</p>
+          <p>Nous avons dû inventer tout le scénario du jeu qui devait être futuriste et où il devait y avoir une morale finale</p>
+          <p>Nous avons ensuite dû coder tout ça en javaFX sur Intellij Idea. Nous avons aussi utilisé le scene builder</p>
+          <p>Notre tuteur de projet devait aussi noter notre avancée afin de voir si nous partions dans la bonne direction ou non</p>
+          <p>Nous avions aussi des cours de PPP où nous devions avancer notre rapport de projet</p>
+        </div>
+
+        <!-- Comment ça s'est passé  -->
+        
+        <div id="div-texte">
+          <h2>
+            Comment ça s'est passé ?
+          </h2>
+          <p>Nous avions un product backlog où nous mettions les story, donc toutes les tâches à faire pour le projet. Chaque personne en prenait une et travaillait dessus</p>
+          <p>Nous avons fait des réunions avec les membres de l’équipe chaque semaines afin de travailler ensemble sur le code, discuter de nos problèmes, les résoudre etc.</p>
+          <p>Nous faisions aussi des réunions avec le tuteur du projet presque chaque semaines ici aussi afin qu’il nous guide et voit notre avancée</p>
+          <p>Nous avons aussi avancé sur le rapport de projet chaque semaines, fait des diagrammes, un rapport des réunions avec le tuteur</p>
+        </div>
+
+        <!-- Ce que j'ai aimé -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que j’ai aimé:
+          </h2>
+
+          <p>L’équipe était très agréable et tout le monde travaillait et s’entraidait. Ce qui me donnait envie d’en faire plus aussi</p>
+          <p>Le projet en soit était intéressant et faisait parti de ceux que toute l’équipe voulait le plus. En effet, j’avais déjà jouer à ces jeux et je m’y connaissais. Donc devoir le coder était un plaisir</p>
+
+        </div>
+
+        <!-- Contraintes -->
+        
+        <div id="div-texte">
+          <h2>
+            Contraintes, ce que je n'ai pas aimé:
+          </h2>
+          <p>Le temps. Nous avions beaucoup de temps mais j’aurais vraiment aimé pouvoir le peaufiner au maximum. 
+            Ce que nous n’avons pas pu faire car nous avions en cette période beaucoup d’autre projets à côté</p>
+        </div>
+
+        <!-- Ce que m'a apporté ce projet -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que m’a apporté ce projet:
+          </h2>
+          <p>Arriver à lier différents fmxl en sauvegardant un inventaire</p>
+          <p> Arriver à généraliser au maximum une fonction</p>
+          <p> Arriver à optimiser une fonction</p>
+          <p> Mettre du son et des vidéos</p>
+        </div>
 
       </div>
     </main>

@@ -9,8 +9,9 @@
         Projet IHM
     </title>
     <link rel="stylesheet" href="../../../css/page.css">
-    <link rel="stylesheet" href="../../../css/accueil.css">
+    <link rel="stylesheet" href="../../../css/IHM.css">
     <script src="../../../js/navbar.js"></script>
+    <script src="../../../js/IHM.js"></script>
       
   </head>
 
@@ -56,17 +57,129 @@
 
       <div class="contenant">
 
-        <h1>Laurens Adèle</h1>
-        <p>Etudiante en L3 informatique</p>
-        <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-        <p>Age : 20 ans</p>
-        <p>Mail: adele.laurens123@gmail.com</p>
-        <p>Adresse: Avenue Edmond Grasset Aytré</p>
-        <p>Téléphone: 07 84 34 98 12</p>
+        <h1>Projet IHM</h1>
 
-        <form>
-            <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-        </form>
+        <div id="slider">
+          <img src="../../../pictures/caroussel_IHM_1.webp" alt="La forêt de peupliers" id="slide">
+          <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+          <div id="suivant" onclick="ChangeSlide(1)">></div>
+        </div>
+
+        <!-- Objectifs avant de travailler: -->
+        
+        <div id="div-texte">
+          <h2>
+            Mes objectifs avant ce projet:
+          </h2>
+
+          <p>Apprendre le java FX et savoir l’utiliser afin de créer un jeu</p>
+          <p>Faire un jeu qui marche qui plaise à tout le groupe</p>
+          <p>Etre fière lors du rendu de ce travail et sentir que j’ai bien travaillé</p>
+
+        </div>
+
+        <!-- Contexte  -->
+        <div id="div-texte">
+          <h2>
+            Contexte:
+          </h2>
+
+          <p>Pour le projet IHM, les professeurs nous ont demandé de faire un escape game en java FX</p>
+          <p>La classe s’est mise en groupe et s’est organisée afin de répondre aux attentes des professeurs</p>
+          <p>Nous nous sommes donc mis d’accord sur les différentes pièces qui seront attribuées pour chaque groupe, l’ordre dans lequel les pièces seront assemblées , le thème (ici celui des Simpson) et le scénario ( à peu près)</p>
+
+          <p>Pour le scénario:</p>
+          <ul class="ul_list-inside">
+            <li>Notre personnage entend des bruits, puis fouille toute la maison et il trouve la bombe dans la dernière salle, la cuisine.</li>
+            <li>Fin : On entend un clic après avoir désamorcé la bombe. Ensuite, on va dans l’entrée et là on a Maggie en mode maléfique qui va apparaître</li>
+            <li>Elle va nous jeter dans la cave puis fermer la porte</li>
+            <li>Et nous on reste enfermé</li>
+            <li>On aura donc une non-happy end</li>
+          </ul>
+
+          <p>Nous avons donc choisi la cuisine qui était la dernière pièce du jeu</p>
+
+        </div>
+
+        <!-- Journée type  -->
+        <div id="div-texte">
+          <h2>
+            Comment ça s'est passé ? 
+          </h2>
+
+          <p>Chaque groupe bossait sur sa scène avec des thèmes de jeux différents (normalement)</p>
+          <p>Il aurait dû y avoir de la communication au sein de la classe afin de vraiment mettre en place un scénario car il n’était pas encore bien précis</p>
+          <p>Mise en place d’une réunion par notre groupe pour se mettre au clair sur le scénario et proposer de nouvelles idées</p>
+          <p>Une personne de la classe s’est proposée afin de relier toutes les scènes</p>
+        </div>
+
+        <!-- Ce que j'ai aimé -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que j’ai aimé:
+          </h2>
+
+          <p>L’ambiance au sein du groupe était agréable</p>
+          <ul class="ul_list-inside">
+            <li>On communiquait à chaque fois qu’on finissait ou commençait une fonctionnalité du jeu</li>
+            <li>On essayait toutes de s’entraider</li>
+            <li>On s’organisait bien pour la réalisation de la scène</li>
+          </ul>
+
+          <p>La création d’un jeu par nous-même était intéressante et nous a permis (pour moi du moins) de s’amuser</p>
+          <p>Le thème du jeu car je regarde souvent les Simpson</p>
+        </div>
+
+        <!-- Contraintes -->
+        
+        <div id="div-texte">
+          <h2>
+            Contraintes:
+          </h2>
+          <p>Problème de communication dans la classe</p>
+          <ul class="ul_list-inside">
+            <li>On s’en est d’ailleurs vraiment aperçu lors du rendu de tous les travaux</li>
+            <li>Aucune liaison entre les pièces, des types d’énigmes très similaires voire identiques</li>
+            <li>Une pièce qui n’a pas du tout compris le scénario car ajout d’une clé qu’on devait chercher dans chaque pièce du jeu</li>
+          </ul>
+
+          <p>Lors des réunions:e</p>
+          <ul class="ul_list-inside">
+            <li>Réunion très gênante car presque personne ne parlait et lorsque c’était le cas, ça se passait 5 minutes après qu’une question soit posée</li>
+            <li>Donc la réunion se passait surtout entre les membres de notre groupe => inutile</li>
+            <li>Les personnes présentes à cette réunion n’écoutaient presque pas ce qu’on leur disait => pièce créée avec ajout d’une clé qui ne devait pas être là</li>
+          </ul>
+
+          <p>La personne qui devait relier toutes les scènes entre elles:</p>
+          <ul class="ul_list-inside">
+            <li>Elle s’y est mise le jour du rendu dans la matinée</li>
+            <li>Ça n’a pas marché même avec le professeur (2h passé dessus sans résultat)</li>
+            <li>Chaque groupe a finalement présenté sa scène</li>
+            <li>On lui a proposé de l’aide mais personne ne répondait</li>
+          </ul>
+
+          <p>Notre groupe a posé des questions sur le groupe de la classe de discord et on n’a eu aucune réponse</p>
+
+          <p>Des personnes venaient nous poser des questions mais ne répondaient pas aux nôtres et ne nous remerciaient même pas lorsqu’on les aidait</p>
+          <ul class="ul_list-inside">
+            <li>par exemple, une fille de notre groupe a essayé d’aider un garçon en lui disant qu’un groupe avait la solution à son problème et celui-ci lui a dit d’aller leur demander elle-même et de revenir lui dire la réponse d’une manière irrespectueuse</li>
+          </ul>
+
+        </div>
+
+        <!-- Ce que m'a apporté ce projet -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que m’a apporté ce projet:
+          </h2>
+          <p>Savoir mieux travailler en équipe</p>
+          <p>Apprendre à gérer le java FX</p>
+          <p>Voir que la classe dans laquelle on a travaillé n’est pas du tout coopérative => c’est du chacun pour soi</p>
+          <p>Prendre du plaisir à créer un escape game. J’ai trouvé ça hypercool comme idée</p>
+          <p>Un beaucoup de déception vis-à-vis du comportent des personnes de la classe</p>
+        </div>
 
       </div>
     </main>

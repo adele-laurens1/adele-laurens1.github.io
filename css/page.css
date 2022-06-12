@@ -18,6 +18,9 @@ nav {
     display: inline-block;
 }
 
+ul{
+    padding-inline-start: 0px;
+}
 .menu > li {
     float: left;
     color: #6FD08C;

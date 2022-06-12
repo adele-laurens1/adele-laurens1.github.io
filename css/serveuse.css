@@ -1,0 +1,31 @@
+h1{
+    font-size: 50px;
+    color: #eee0b7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 25px;
+    color: #eee0b7;
+    margin-top: 20px;
+    text-align: left;
+}
+
+body{
+    background: url("../pictures/background_IHM.jpg") center;
+    background-size: cover;
+}
+
+p{
+    text-align: left;
+    font-size: 25px;
+    color: #7B9EA8;
+}
+
+div#div-texte{
+    text-align: center;
+    display: inline-block;
+    max-width: 75%;
+}
+

@@ -9,7 +9,7 @@
         Stage L3
     </title>
     <link rel="stylesheet" href="../../../css/page.css">
-    <link rel="stylesheet" href="../../../css/accueil.css">
+    <link rel="stylesheet" href="../../../css/stageL3.css">
     <script src="../../../js/navbar.js"></script>
       
   </head>
@@ -56,17 +56,186 @@
 
       <div class="contenant">
 
-        <h1>Laurens Adèle</h1>
-        <p>Etudiante en L3 informatique</p>
-        <p>Compte continuer ses études dans un master parcours Génie Logicel</p>
-        <p>Age : 20 ans</p>
-        <p>Mail: adele.laurens123@gmail.com</p>
-        <p>Adresse: Avenue Edmond Grasset Aytré</p>
-        <p>Téléphone: 07 84 34 98 12</p>
+        <h1 style="font-size: 50px; color: #555152;">Stage de fin d'étude en L3</h1>
 
-        <form>
-            <button type="submit" formaction="mailto:adele.laurens123@gmail.com"><span>Contacter</span></button>
-        </form>
+        <!-- Objectifs avant de travailler: -->
+        
+        <div id="div-texte">
+          <h2>
+            Mes objectifs avant ce stage:
+          </h2>
+
+          <p>Réutiliser mes connaissances afin de mener à bien le projet</p>
+          <p>Potentiellement découvrir de nouveaux outils</p>
+          <p>Travailler en équipe</p>
+          <p>Avoir mon année</p>
+
+        </div>
+
+        <!-- Contexte  -->
+        
+        <div id="div-texte">
+          <h2>
+            Contexte:
+          </h2>
+
+          <p>Tout d'abord, ce stage s'est déroulé en collaboration avec un autre étudiant de l'université.</p>
+          <p>Nous avons réalisé le stage au Laboratoire L3I.</p>
+          <p> Nous devions créer un site web ayant une base de données.</p>
+
+          <br>
+
+          <p>
+            En effet, il arrive fréquemment que certaines personnes appartenant au laboratoire, partent en mission. 
+            C'est-à-dire qu'ils vont assister à des conférences, conventions etc.
+          </p>
+          <p>
+            Pour cela, ils doivent remplir un formulaire afin de renseigner certaines informations dont: 
+            les informations du missionnaire (la personne qui part en mission),
+            le(s) transport(s) qu'il va utiliser,
+            ses déplacements (dates et lieux),
+            le(s) colloques,
+            potentiellement les indemnités journalières ainsi que le(s) indemnité(s) à l'étranger,
+            les fichiers nécessaires (programme de la conférence, carte grise, billet de train etc.),
+            une estimation du cout total de cette mission.
+          </p>
+          <p>(Ces informations sont celles recueillies à la fin du stage. Elles sont différentes de celles du premier site.)</p>
+          <p>Ensuite, des mails sont envoyés à plusieurs personnes pour qu'ils acceptent/refusent cette demande et potentiellement ajoutent un commentaire.</p>
+          <p>Les mails sont d'abord envoyés à un responsable de ligne, puis à la direction et enfin au secrétariat.</p>
+          <p>Il se peut qu'il n'y ait pas de responsable de ligne renseigné dans la mission. Ainsi, ça sera à la direction directement d'accepter/refuser la mission/demande.</p>
+          <p>Nous avons aussi un administrateur qui va recevoir tous les mails et l'utilisateur qui à crée la demande qui va pouvoir suivre l'avancement.</p>
+
+          <br>
+
+          <p>Notre mission principale dans ce stage, était de créer ce formulaire sur un autre site et de rajouter une base de données afin de pouvoir récupérer toutes ces informations.</p>
+          <p>Nous avons aussi dû créer d'autres pages:</p>
+          <ul class="ul_list-inside">
+            <li>Une page d'accueil qui permet de visualiser/modifier/supprimer notre demande/mission et potentiellement d'accepter/refuser une/des mission(s) en fonction de notre rôle (responsable de ligne, direction, secrétariat).</li>
+            <li>Une page de gestion qui permet à l'administrateur d'ajouter/modifier/supprimer un utilisateur, une mission, un grade et de modifier l'id ainsi que le mot de passe d'un administrateur local</li>
+            <li>Une page de statistique qui permet à l'administrateur de visualiser la BDD ainsi que d'autres données</li>
+            <li>Une page de configuration qui permet à l'administrateur de modifier certaines fonctionnalités du site</li>
+          </ul>
+          <p>Nous avons là aussi dû nous occuper de l'ordre dans lequel les missions sont acceptées (comme pour les mails plus haut) et par les personnes.</p>
+          <p>Nous avons donc attribué des rôles à chaque utilisateur connecté via la connexion CAS (service d'authentification utilisé par l'université).</p>
+          <p>On nous a aussi demandé de créer un administrateur local qui aura les mêmes droits que l'administrateur mais qui sera directement enregistré dans la BDD. Il sera utilisé dans le cas où la connexion CAS ne marcherait plus.</p>
+
+        </div>
+
+        <!-- Journée type  -->
+        
+        <div id="div-texte">
+          <h2>
+            Comment ça s'est passé ?
+          </h2>
+
+          <p>Au début du stage, on nous a expliqué le fonctionnement de tout cela. (Ce qui est expliqué plus haut notamment).</p>
+          <p>Nous avons alors dû faire une diapositive afin de leur expliquer ce que nous avions compris, faire la BDD, un diagramme de Gantt, un product backlog ainsi qu'un google Agenda afin de faire un planning prévisionnel.</p>
+
+          <br>
+
+          <p>Au niveau du code, j'ai décidé de faire une architecture MVC afin d'organiser notre code car mon collègue voulait tout coder dans la même page.</p>
+          <p>Ce dernier ne voulait d'ailleurs pas apprendre à l'utiliser. J'ai donc dû reprendre son code à la fin du stage afin de mettre en place cette architecture.</p>
+          <p>Je me suis donc essentiellement occupée du back et lui du front.</p>
+          <p>J'ai donc créé tous les fichiers pour se connecter à la BDD, les contrôleurs, le routeur, les modèles et les vues.</p>
+          <p>
+            Le contrôleur pour le formulaire m'a pris 3/4 de mon temps de stage car il fallait vérifier toutes les données envoyées par le formulaire en POST. 
+            De plus, mon collègue avait utilisé une variable globale pour récupérer les données. 
+            Ceci ne correspondait pas au MVC et n'était pas optimisé. J'ai donc décidé de changer tout cela et ça a pris beaucoup de temps aussi.
+          </p>
+          <p>
+            J'ai aussi mis en place un modèle générique et ai décidé de changer le contrôleur pour le formulaire afin de rendre un code plus propre.
+            Pour finir, je me suis occupée de passer toutes les requêtes en POST afin de rendre le site plus sécurisé. 
+            Tout ceci m'a pris énormément de temps.
+          </p>
+          <p>
+            Je m'étais aussi occupée de faire le front et le back de la page d'accueil mais mon collègue ne comprenant pas mon code, a décidé d'en enlever la moitié.
+            Il a retiré tout le code qu'il ne comprenait pas (s'il a au moins essayé de comprendre). Ainsi, il a enlevé les modaux bootstraps.
+            N'ayant ni le temps ni le courage de récupérer mon code, je l'ai laissé ainsi.
+            Alors qu'à la base, c'était lui qui m'avait proposé de mettre en place l'accueil avec ces fonctionnalités pour que ça soit plus beau.
+          </p>
+
+          <br>
+
+          <p>
+            Ainsi, comme le back et le front dont je m'étais occupée ont pris les 8 semaines de stage, mon collègue s'est occupé de mettre en place le front et du back pour les pages:
+            de configuration, de gestion et pour la page de connexion pour l'administrateur local. 
+            Comme il a mis tout son code dans ces pages, j'ai dû créer tous les contrôleurs avec les fonctions et les vues afin de respecter le MVC.
+          </p>
+          <p>Il s'est aussi occupé du front pour la page de statistique.</p>
+          <p>Il a aussi mis en place les transferts de mails et la validation lorsqu'un responsable de ligne/la direction/ le secrétariat acceptait/refusait une demande/mission.</p>
+        </div>
+
+        <!-- Ce que j'ai aimé -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que j’ai aimé:
+          </h2>
+
+          <p>J'ai vraiment aimé le projet de faire un site web de A à Z.</p>
+          <p>Avoir une certaine liberté puisque j'ai pû décider d'utiliser le MVC</p>
+
+        </div>
+
+        <!-- Contraintes -->
+        
+        <div id="div-texte">
+          <h2>
+            Contraintes, ce que je n’ai pas aimé:
+          </h2>
+
+          <p>Je trouve que je n'ai pas eu assez de temps pour vraiment finaliser le projet et pour:</p>
+          <ul class="ul_list-inside">
+            <li>Mettre au propre tout mon code</li>
+            <li>Faire de vrai tests (performance, sécurité, etc.)</li>
+            <li>Repprendre tout le code de mon collègue car j'ai vu plus tard qu'il y avait certaines fonctions qui n'étaient pas aux bons endroits</li>
+          </ul>
+
+          <p>Je n'ai pas appris beaucoup de chose durant ce stage puisqu'il fallait réutiliser nos connaissances.</p>
+      
+          <p>Je n'ai pas du tout apprécié travailler avec mon collègue car:</p>
+          <ul class="ul_list-inside">
+            <li>Au bout de 3 semaines, il ne voulait plus bosser pour je ne sais quelle raison</li>
+            <li>J'ai eu l'impression de jouer un rôle de mère avec lui car quand il ne faisait rien je devais à chaque fois lui rappeller qu'il y a avait des choses à faire sinon il ne travaillait pas</li>
+            <li>Il ne voulait jamais modifier son code car:</li>
+            <ul class="ul_list-inside">
+              <li>Il me disait tout le temps "j'ai la flemme" ou "j'arrive pas à travailler il fait trop chaud"</li>
+              <li>Il me disait "ça marche comme ça c'est pas grave" alors qu'il y avait des beugs lorsqu'on sélectionnait certains champs</li>
+            </ul class="ul_list-inside">
+            <li>Il ne voulait pas apprendre à créer une branche (alors que c'est 2 commandes) ce qui faisait qu'on avait tout le temps des conflits sur GitLab</li>
+            <li>Il ne voulait pas apprendre le MVC (alors qu'il l'avait appris l'année précédeente) donc j'ai perdu 1 bonne semaine pour reprendre tout son code afin de mettre en place cette architecture</li>
+            <li>
+              Comme pendant 1 semaine, il n'a pas touché au code, je lui ai demandé de bosser parce qu'on avait fait que 2 pages et qu'il restait d'autres choses à faire. 
+              Par la suite, au lieu de regarder ses vidéos tout seul, il a décidé de me les montrer afin de perdre du temps à 2 plutôt que tout seul. 
+              Mais aussi pour que je ne lui fasse plus de remarques sur le fait qu'il ne travaillait pas vraiment
+            </li>
+            <li>
+              Lorsqu'il ne faisait rien, il décidait de regarder ce que je faisais. 
+              Lorsque je bloquais, 
+              il venait "m'aider" sauf qu'il me parlait comme si j'avais 2 de QI lorque je ne comprenais pas ses explications alors que je n'avais rien demandé...
+            </li>            
+          </ul>
+
+          <p>
+            En somme, j'ai eu l'impression d'avoir travaillé pour 2 dans ce projet, ce que je n'ai pas du tout apprécié. Il y a vraiment mis de la mauvaise foi et n'a pas été très sympathique.
+            Sachant qu'il ne voulait pas toucher au back (ce qui est clairement le plus long), j'ai dû me débrouiller toute seule pour la plupart du projet. 
+          </p>
+
+        </div>
+
+        <!-- Ce que m'a apporté ce projet -->
+        
+        <div id="div-texte">
+          <h2>
+            Ce que m’a apporté ce stage:
+          </h2>
+
+          <p>J'ai appris à mettre en place un modèle générique lors de ce stage.</p>
+          <p>J'ai aussi un appris le JQuery afin de supprimer un fichier dynamiquement via une requête asynchrone.</p>
+          <p>Les horaires m'ont rassurés pour mon futur métier car j'ai eu le temps créer un epartie de ce e-portfolio et de créer mon rapprot de stage en latex.</p>
+          <p>Avoir plus d'informations et de données afin de créer un meilleur rapport de stage ainsi qu'une meilleure soutenance</p>
+
+        </div>
 
       </div>
     </main>

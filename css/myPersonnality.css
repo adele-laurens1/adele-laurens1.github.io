@@ -15,7 +15,7 @@ p{
     color: #7B9EA8;
 }
 
-img {
+div#nuageDeMot > img {
     max-height : 100%;
     width : auto;
     object-fit: cover;
