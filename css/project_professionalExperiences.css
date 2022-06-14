@@ -1,5 +1,5 @@
 body {
-    background: url("../pictures/background/background_project_professionalExperiences.webp") center;
+    background: url("/pictures/background/background_project_professionalExperiences.webp") center;
     background-size: cover;
 }
 h2{
@@ -232,7 +232,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 300px;
   object-fit: cover;
-  background-image: url("../pictures/project_professionalExperiences/hopital_sainte_marie.webp");
+  background-image: url("/pictures/project_professionalExperiences/hopital_sainte_marie.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -247,7 +247,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/project_professionalExperiences/salle_de_classe.webp");
+  background-image: url("/pictures/project_professionalExperiences/salle_de_classe.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/caroussel/IHM/caroussel_IHM_1.PNG");
+  background-image: url("/pictures/caroussel/IHM/caroussel_IHM_1.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -275,7 +275,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/project_professionalExperiences/site_echec_miniature.webp");
+  background-image: url("/pictures/project_professionalExperiences/site_echec_miniature.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png");
+  background-image: url("/pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -303,7 +303,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/caroussel/escapeGame/caroussel_escapeGame_1.png");
+  background-image: url("/pictures/caroussel/escapeGame/caroussel_escapeGame_1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/project_professionalExperiences/logo_syneg_in.jpg");
+  background-image: url("/pictures/project_professionalExperiences/logo_syneg_in.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,7 +331,7 @@ input:checked ~ .content-test {
   height: 200px;
   width: 200px;
   object-fit: cover;
-  background-image: url("../pictures/project_professionalExperiences/serveuse_miniature.png");
+  background-image: url("/pictures/project_professionalExperiences/serveuse_miniature.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

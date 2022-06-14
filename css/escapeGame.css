@@ -8,7 +8,7 @@ h2{
 }
 
 body{
-    background: url("../pictures/background/background_escapeGame.jpg") center;
+    background: url("/pictures/background/background_escapeGame.jpg") center;
     background-size: cover;
 }
 

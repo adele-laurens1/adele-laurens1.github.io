@@ -3,7 +3,7 @@ h1{
 }
 
 body{
-  background: url("../pictures/background/background_mypersonnality.jpg") center;
+  background: url("/pictures/background/background_mypersonnality.jpg") center;
   background-size: cover;
 }
 
