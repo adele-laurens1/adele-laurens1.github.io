@@ -25,7 +25,7 @@ ul{
     line-height: 40px;
     background: rgba(0, 0, 0, 0.7);
     cursor: pointer;
-    font-size: 20px;
+    font-size: 17px;
     list-style-type: none;
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ ul{
 .sub-menu{
     list-style-position: outside;
     width: 250px;
-    font-size: 20px;
+    font-size: 17px;
     background: rgba(0, 0, 0, 0.8);
     padding: 8px 0;
     color: white;

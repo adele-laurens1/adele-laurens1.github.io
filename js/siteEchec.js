@@ -1,5 +1,5 @@
-var slide = new Array("../../../pictures/caroussel/siteEchec/caroussel_siteEchec_1.PNG", "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_2.PNG",
- "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_3.PNG", "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_4.PNG"
+var slide = new Array("../../../pictures/caroussel/siteEchec/caroussel_siteEchec_1.webp", "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_2.webp",
+ "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_3.webp", "../../../pictures/caroussel/siteEchec/caroussel_siteEchec_4.webp"
  );
 var numero = 0;
 
