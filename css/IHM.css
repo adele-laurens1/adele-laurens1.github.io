@@ -1,14 +1,9 @@
 h1{
-    font-size: 50px;
     color: #b576ad;
-    text-align: center;
-    margin-top: 20px;
 }
 
 h2{
-    font-size: 25px;
     color: #b576ad;
-    margin-top: 20px;
     text-align: left;
 }
 
@@ -19,22 +14,14 @@ body{
 
 p{
     text-align: left;
-    font-size: 25px;
     color: #7B9EA8;
 }
 
-
 div#slider > img{
-    max-height : 100%;
-    width : auto;
+    max-width : 100%;
+    height : auto;
+    width: 1300px;
     object-fit: cover;
-}
-
-
-div#div-texte{
-    text-align: center;
-    display: inline-block;
-    max-width: 75%;
 }
 
 ul.ul_list-inside > li{
@@ -46,12 +33,15 @@ ul.ul_list-inside > li{
     color: #7B9EA8;
 }
 
+.contenant{
+    margin-bottom: 5%;
+}
 
 /* caroussel d'image */
 
 #slider {
     position: relative;
-    width: 1200px;
+    width: 1300px;
     margin: auto;
     display: flex;
     align-items: center;

@@ -1,21 +1,18 @@
-h1{
-    font-size: 50px;
-    color: #7B9EA8;
-    text-align: center;
-    margin-top: 20px;
-}
 
 body{
     background: url("../pictures//background_music.jpg") center;
     background-size: cover;
 }
 
-p{
-    font-size: 25px;
-    color: #7B9EA8;
+h1{
+    color: #6FD08C;
 }
 
-div#div-texte{
-    display: inline-block;
-    max-width: 75%;
+p{
+    color: #6FD08C;
 }
+
+.contenant{
+    margin-bottom: 5%;
+    text-align: center;
+  }

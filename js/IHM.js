@@ -1,6 +1,6 @@
-var slide = new Array("../../../pictures/caroussel_IHM_1.webp", "../../../pictures/caroussel_IHM_2.webp",
- "../../../pictures/caroussel_IHM_3.webp", "../../../pictures/caroussel_IHM_4.webp",
- "../../../pictures/caroussel_IHM_5.webp"
+var slide = new Array("../../../pictures/caroussel/IHM/caroussel_IHM_1.PNG", "../../../pictures/caroussel/IHM/caroussel_IHM_2.PNG",
+ "../../../pictures/caroussel/IHM/caroussel_IHM_3.PNG", "../../../pictures/caroussel/IHM/caroussel_IHM_4.PNG",
+ "../../../pictures/caroussel/IHM/caroussel_IHM_5.PNG"
  );
 var numero = 0;
 

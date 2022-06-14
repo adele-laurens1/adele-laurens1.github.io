@@ -4,12 +4,16 @@ body{
 }
 
 h1{
-    font-size: 50px;
     color: #78586F;
-    text-align: center;
-    margin-top: 20px;
 }
 
+h2{
+    color: #78586F;
+}
+
+div{
+    text-align: center;
+}
 
 button {
     display: inline-block;
@@ -54,3 +58,7 @@ button:hover span:after {
     opacity: 1;
     right: 0;
 } 
+
+.contenant{
+    margin-bottom: 5%;
+}

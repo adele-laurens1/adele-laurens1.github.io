@@ -1,15 +1,10 @@
 h1{
-    font-size: 50px;
     color: #00dffc;
-    text-align: center;
-    margin-top: 20px;
 }
 
 h2{
-    font-size: 25px;
     color: #00dffc;
-    margin-top: 20px;
-    text-align: left;
+    text-align: left; 
 }
 
 body{
@@ -17,17 +12,9 @@ body{
     background-size: cover;
 }
 
-p{
+p{  
     text-align: left;
-    font-size: 25px;
-    color: #7B9EA8;
-}
-
-
-div#div-texte{
-    text-align: center;
-    display: inline-block;
-    max-width: 75%;
+    color: #E6C79C;
 }
 
 ul.ul_list-inside > li{
@@ -36,5 +23,63 @@ ul.ul_list-inside > li{
     list-style-position: inside;
     list-style-type: circle;
     font-size: 25px;
-    color: #7B9EA8;
+    color: #E6C79C;
+}
+
+.div_partie{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* pour le boutton de téléchargemnt */
+
+button {
+    display: inline-block;
+    background-color: #E6C79C;
+    border-radius: 10px;
+    border: 4px double #FFFDF7;
+    color: #FFFDF7;
+    margin: 0 auto;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #00dffc;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+} 
+
+.contenant{
+    margin-bottom: 5%;
+    background: url(../pictures/fond_noir.jpg);
 }

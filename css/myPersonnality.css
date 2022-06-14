@@ -1,41 +1,35 @@
 h1{
-    font-size: 50px;
-    color: #7B9EA8;
-    text-align: center;
-    margin-top: 20px;
+  color: #7B9EA8;
 }
 
 body{
-    background: url("../pictures/background_mypersonnality.jpg") center;
-    background-size: cover;
+  background: url("../pictures/background_mypersonnality.jpg") center;
+  background-size: cover;
 }
 
 p{
-    font-size: 25px;
-    color: #7B9EA8;
+  color: #7B9EA8;
 }
 
-div#nuageDeMot > img {
-    max-height : 100%;
-    width : auto;
-    object-fit: cover;
+#div_texte_image{
+  display: flex;
+  margin-bottom: 5%;
+  justify-content : space-evenly;
+  align-items : center;
+  background-color: #E6EBFF;
 }
 
-div#div-texte{
-    display: inline-block;
-    max-width: 75%;
+#texte{
+  text-align: center;
+  max-width: 12%;
+  height: auto;
 }
 
-
-body {
-    background: url("../pictures/background_reseaux.webp") center;
-    background-size: cover;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    padding-top: 20px;
+#nuageDeMot{
+  max-width: 80%;
+  height: auto;
 }
+
 .d-block, h2{
   color: #E6C79C;
   font-weight: 700;
@@ -44,6 +38,10 @@ body {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
+}
+
+.contenant{
+  margin-bottom: 5%;
 }
 
 /* ============= Begin Testimonial Flexbox ============ */
@@ -61,7 +59,7 @@ body {
   align-items: center;
   width: 100%;
   min-height: 400px;
-  height: 110vh;
+  height: 75%;
   max-width: 1000px;
   margin: auto;
   background-color: #fff;
@@ -74,6 +72,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
+  
 }
 
 #left-zone {
@@ -251,40 +250,40 @@ input:checked ~ .content-test {
   }
 }
 
-.content_testimonial-1 h1 {
+.content_testimonial-1 h2 {
   color: #FF0000;
   text-align: center;
 }
 
-.content_testimonial-2 h1 {
+.content_testimonial-2 h2 {
   color: #FF0084;
 }
 
-.content_testimonial-3 h1 {
+.content_testimonial-3 h2 {
   color: #D300FF;
 }
 
-.content_testimonial-4 h1 {
+.content_testimonial-4 h2 {
   color: #0005FF;
 }
 
-.content_testimonial-5 h1 {
+.content_testimonial-5 h2 {
   color: #00FBFF;
 }
 
-.content_testimonial-6 h1 {
+.content_testimonial-6 h2 {
   color: #00FF3E;
 }
 
-.content_testimonial-7 h1 {
-  color: #FDFF00;
+.content_testimonial-7 h2 {
+  color: #e9e917;
 }
 
-.content_testimonial-8 h1 {
+.content_testimonial-8 h2 {
   color: #FFB200;
 }
 
-.content_testimonial-9 h1 {
+.content_testimonial-9 h2 {
   color: #FF0000;
 }
 
@@ -330,8 +329,8 @@ input:checked ~ label.label_testimonial-6 {
 }
 
 input:checked ~ label.label_testimonial-7 {
-  color: #FDFF00;
-  border-right: solid 4px #FDFF00;
+  color: #e9e917;
+  border-right: solid 4px #e9e917;
 }
 
 input:checked ~ label.label_testimonial-8 {

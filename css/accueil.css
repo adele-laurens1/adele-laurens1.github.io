@@ -1,20 +1,18 @@
 body {
-    background-image:url(../pictures/background_clavier.jpg);
+    background: url("../pictures/background_accueil.jpg") center;
+    background-size: cover;
 }
 
 h1{
-    font-size: 100px;
     color: #E6C79C;
-    text-align: center;
-    margin-top: 20px;
 }
 
-p{
-    font-size: 50px;
+h2{
     color: #E6C79C;
+}
+
+form{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 button {

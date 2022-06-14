@@ -1,14 +1,9 @@
 h1{
-    font-size: 50px;
     color: #fde47f;
-    text-align: center;
-    margin-top: 20px;
 }
 
 h2{
-    font-size: 25px;
     color: #fde47f;
-    margin-top: 20px;
     text-align: left;
 }
 
@@ -19,14 +14,7 @@ body{
 
 p{
     text-align: left;
-    font-size: 25px;
-    color: #7B9EA8;
-}
-
-div#div-texte{
-    text-align: center;
-    display: inline-block;
-    max-width: 75%;
+    color: #6FD08C;
 }
 
 ul.ul_list-inside > li{
@@ -35,5 +23,50 @@ ul.ul_list-inside > li{
     list-style-position: inside;
     list-style-type: circle;
     font-size: 25px;
-    color: #7B9EA8;
+    color: #6FD08C;
+}
+
+.contenant{
+    margin-bottom: 5%;
+}
+
+/* caroussel d'image */
+
+div#slider > img{
+    max-width : 100%;
+    height : auto;
+    width: 1000px;
+    object-fit: cover;
+}
+
+#slider {
+    position: relative;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    font-size: 100px;
+    color: #fde47f;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
 }

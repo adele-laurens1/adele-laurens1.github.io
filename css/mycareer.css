@@ -20,14 +20,12 @@ html {
 }
 
 h1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin-top: 1em;
+    color:#E6C79C;
 }
 
 p{
     margin-top: 20px;
+    color:#7B9EA8;
 }
 
 .niv_etude{
@@ -35,7 +33,7 @@ p{
 }
 
 .text_caroussel{
-    color: #7B9EA8;
+    color: #E6C79C;
 }
 
 .container {
@@ -46,9 +44,9 @@ p{
 }
 
 .card-carousel {
-    --card-width: 80%;
-    --card-max-width: 400px;
-    --card-height: 500px;
+    --card-width: 90%;
+    --card-max-width: 550px;
+    --card-height: 700px;
     --carousel-min-width: 600px;
     z-index: 1;
     position: relative;

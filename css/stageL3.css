@@ -1,33 +1,19 @@
 h1{
-    font-size: 50px;
     color: #555152;
-    text-align: center;
-    margin-top: 20px;
 }
 
 h2{
-    font-size: 25px;
     color: #555152;
-    margin-top: 20px;
     text-align: left;
 }
 
 body{
-    background: url("../pictures/background_stageL3.jpg") center;
-    background-size: cover;
+    background: url("../pictures/fond_blanc.webp") center;
 }
 
 p{
     text-align: left;
-    font-size: 25px;
-    color: #7B9EA8;
-}
-
-
-div#div-texte{
-    text-align: center;
-    display: inline-block;
-    max-width: 75%;
+    color: #78586F;
 }
 
 ul.ul_list-inside > li{
@@ -36,5 +22,9 @@ ul.ul_list-inside > li{
     list-style-position: inside;
     list-style-type: circle;
     font-size: 25px;
-    color: #7B9EA8;
+    color: #78586F;
+}
+
+.contenant{
+    margin-bottom: 5%;
 }

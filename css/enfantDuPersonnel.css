@@ -1,15 +1,10 @@
 h1{
-    font-size: 50px;
     color: #555e7b;
-    text-align: center;
-    margin-top: 20px;
 }
 
 h2{
-    font-size: 25px;
-    color: #555e7b;
-    margin-top: 20px;
     text-align: left;
+    color: #555e7b;
 }
 
 body{
@@ -19,8 +14,11 @@ body{
 
 p{
     text-align: left;
-    font-size: 25px;
-    color: #7B9EA8;
+    color: #78586F;
+}
+
+#image_hopital{
+    text-align: center;
 }
 
 div#image_hopital > img{
@@ -29,17 +27,15 @@ div#image_hopital > img{
     object-fit: cover;
 }
 
-div#div-texte{
-    text-align: center;
-    display: inline-block;
-    max-width: 75%;
-}
-
 ul.ul_list-inside > li{
     text-align: left;
     list-style: inside;
     list-style-position: inside;
     list-style-type: circle;
     font-size: 25px;
-    color: #7B9EA8;
+    color: #78586F;
+}
+
+.contenant{
+    margin-bottom: 5%;
 }
