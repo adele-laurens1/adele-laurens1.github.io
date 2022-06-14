@@ -28,5 +28,14 @@ p{
 
 .contenant{
     margin-bottom: 5%;
-    background-image:url(../pictures/fond_blanc.webp);
+}
+
+.div_partie{
+    border-radius: 10px;
+    background-color: 
+    rgba(255, 255, 255, 0.90);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }

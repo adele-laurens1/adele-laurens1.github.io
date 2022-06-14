@@ -24,6 +24,16 @@ p{
     margin-right: 5%;
 }
 
+#div_texte{
+    border-radius: 10px;
+    background-color: 
+    rgba(0, 0, 0, 0.65);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 ul.ul_list-inside > li{
     text-align: left;
     list-style: inside;
@@ -35,7 +45,6 @@ ul.ul_list-inside > li{
 
 .contenant{
     margin-bottom: 5%;
-    background-image: url(../pictures/fond_blanc.webp);
 }
 
 /* caroussel d'image */

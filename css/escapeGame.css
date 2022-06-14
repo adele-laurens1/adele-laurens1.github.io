@@ -8,13 +8,13 @@ h2{
 }
 
 body{
-    background: url("../pictures/background_escape_game.jpg") center;
+    background: url("../pictures/background/background_escapeGame.jpg") center;
     background-size: cover;
 }
 
 p{
     text-align: left;
-    color: #7B9EA8;
+    color: #CDDFA0;
 }
 
 .div_partie{
@@ -23,21 +23,31 @@ p{
     margin-right: 5%;
 }
 
+#div_texte{
+    border-radius: 10px;
+    background-color: 
+    rgba(0, 0, 0, 0.3);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 ul.ul_list-inside > li{
     text-align: left;
     list-style: inside;
     list-style-position: inside;
     list-style-type: circle;
     font-size: 25px;
-    color: #7B9EA8;
+    color: #CDDFA0;
 }
+
+
 
 .contenant{
     margin-bottom: 5%;
-    background:
-    url("../pictures/fond_noir.jpg");
-
 }
+
 /* caroussel d'image */
 div#slider > img{
     max-width : 100%;

@@ -32,6 +32,16 @@ ul.ul_list-inside > li{
     margin-right: 5%;
 }
 
+#div_texte{
+    border-radius: 10px;
+    background-color: 
+    rgba(0, 0, 0, 0.7);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 
 /* pour le boutton de téléchargemnt */
 
@@ -81,5 +91,4 @@ button:hover span:after {
 
 .contenant{
     margin-bottom: 5%;
-    background: url(../pictures/fond_noir.jpg);
 }

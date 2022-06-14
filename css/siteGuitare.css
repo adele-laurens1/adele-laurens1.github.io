@@ -8,7 +8,7 @@ h2{
 }
 
 body{
-    background: url("../pictures/background_siteGuitare.jpg") center;
+    background: url("../pictures/background/background_siteGuitare.jpg") center;
     background-size: cover;
 }
 
@@ -26,17 +26,31 @@ ul.ul_list-inside > li{
     color: #6FD08C;
 }
 
+.div_partie{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#div_texte{
+    border-radius: 10px;
+    background-color: 
+    rgba(0, 0, 0, 0.65);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 .contenant{
     margin-bottom: 5%;
 }
 
 /* caroussel d'image */
 
-div#slider > img{
+#slide{
     max-width : 100%;
+    width: 1100px;  
     height : auto;
-    width: 1000px;
-    object-fit: cover;
 }
 
 #slider {
@@ -54,7 +68,7 @@ div#slider > img{
     opacity: 0;
     font-size: 100px;
     color: #fde47f;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
 

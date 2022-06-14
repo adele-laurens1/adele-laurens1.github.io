@@ -8,7 +8,7 @@ h2{
 }
 
 body{
-    background: url("../pictures/background_IHM.jpg") center;
+    background: url("../pictures/background/background_IHM.jpg") center;
     background-size: cover;
 }
 
@@ -37,6 +37,21 @@ ul.ul_list-inside > li{
     margin-bottom: 5%;
 }
 
+.div_partie{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#div_texte{
+    border-radius: 10px;
+    background-color: 
+    rgba(0, 0, 0, 0.65);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 /* caroussel d'image */
 
 #slider {

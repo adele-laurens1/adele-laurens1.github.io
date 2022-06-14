@@ -4,13 +4,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/jpg" sizes="48x48" href="../pictures/icone_eportfolio.jpg">
+    <link rel="icon" type="image/jpg" sizes="48x48" href="../../../pictures/icone_eportfolio.jpg">
     <title>
         Projet Site Guitare
     </title>
     <link rel="stylesheet" href="../../../css/page.css">
     <link rel="stylesheet" href="../../../css/siteGuitare.css">
-    <script src="../../../js/navbar.js"></script>
+    
       
   </head>
 
@@ -60,112 +60,115 @@
 
         <div id="slider">
           <div id="precedent" onclick="ChangeSlide(-1)"><</div>
-          <img src="../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.PNG" id="slide">
+          <img src="../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png" id="slide">
           <div id="suivant" onclick="ChangeSlide(1)">></div>
         </div>
 
         <!-- Objectifs avant de travailler: -->
         
-        <div>
-          <h2>
-            Mes objectifs avant de créer ce site: 
-          </h2>
+        <div id="div_texte">
+          <div class="div_partie">
+            <h2>
+              Mes objectifs avant de créer ce site: 
+            </h2>
 
-          <p>Réutiliser les cours et les TD faits pour répondre aux exigences demandées.</p>
-          <p>Faire un site dynamique: possibilité de créer un identifiant, de le modifier, de se connecter, accéder au panier, voir les commandes passées</p>
-          <p>Gérer la sécurité du site (base de donnée + requetes POST)</p>
-          <p>En apprendre plus en PHP</p>
-          <p>Travailler en équipe</p>
+            <p>Réutiliser les cours et les TD faits pour répondre aux exigences demandées.</p>
+            <p>Faire un site dynamique: possibilité de créer un identifiant, de le modifier, de se connecter, accéder au panier, voir les commandes passées</p>
+            <p>Gérer la sécurité du site (base de donnée + requetes POST)</p>
+            <p>En apprendre plus en PHP</p>
+            <p>Travailler en équipe</p>
 
-        </div>
+          </div>
 
-        <!-- Contexte  -->
-        
-        <div>
-          <h2>
-            Contexte:
-          </h2>
+          <!-- Contexte  -->
+          
+          <div class="div_partie">
+            <h2>
+              Contexte:
+            </h2>
 
-          <p>Pour ce projet, nous devions créer un site e-commerce en PHP en groupe de 3-4</p>
-          <p>Nous deviens respecter certaines attentes comme:</p>
-          <ul class="ul_list-inside">
-            <li>Pour le Front:</li>
-
+            <p>Pour ce projet, nous devions créer un site e-commerce en PHP en groupe de 3-4</p>
+            <p>Nous deviens respecter certaines attentes comme:</p>
             <ul class="ul_list-inside">
-              <li>Avoir un HTML/CSS valide</li>
-              <li>Créer des formulaires d’inscriptions sécurisés grâce au CRUD (vérification des données, activation du compte par mail)</li>
-            </ul>
-            <li>Pour le back:</li>
+              <li>Pour le Front:</li>
 
+              <ul class="ul_list-inside">
+                <li>Avoir un HTML/CSS valide</li>
+                <li>Créer des formulaires d’inscriptions sécurisés grâce au CRUD (vérification des données, activation du compte par mail)</li>
+              </ul>
+              <li>Pour le back:</li>
+
+              <ul class="ul_list-inside">
+                <li>Sécurisation des pages pour l’admin et les utilisateurs</li>
+                <li>Faire le CRUD de manière générique</li>
+                <li>Créer le routeur (actions par défaut, gestions des cas d’erreurs)</li>
+                <li>Respecter le modèle MVC</li>
+                <li>Sécurisation des mots de passe (résistance aux attaques par dictionnaire)</li>
+                <li>Portabilité du site (chemin de fichier absolu + URL relatives)</li>
+                <li>Échappement des vues</li>
+                <li>SQL (requêtes préparées +contraintes de clé)</li>
+                <li>Gérer l’historique des commandes</li>
+                <li>Créer un panier courant</li>
+              </ul>
+            </ul>
+
+          </div>
+
+          <!-- Journée type  -->
+          
+          <div class="div_partie">
+            <h2>
+              Comment ça se passait ?
+            </h2>
+
+            <p>Nous faisions des réunions toutes les semaines afin de savoir où est était le site, si on avançait et si nous bloquions</p>
+            <p>Nous nous sommes inspirés d’un site : Thomann</p>
+            <p>Nous nous donnions les tâches à faire pour chaque personne:</p>
             <ul class="ul_list-inside">
-              <li>Sécurisation des pages pour l’admin et les utilisateurs</li>
-              <li>Faire le CRUD de manière générique</li>
-              <li>Créer le routeur (actions par défaut, gestions des cas d’erreurs)</li>
-              <li>Respecter le modèle MVC</li>
-              <li>Sécurisation des mots de passe (résistance aux attaques par dictionnaire)</li>
-              <li>Portabilité du site (chemin de fichier absolu + URL relatives)</li>
-              <li>Échappement des vues</li>
-              <li>SQL (requêtes préparées +contraintes de clé)</li>
-              <li>Gérer l’historique des commandes</li>
-              <li>Créer un panier courant</li>
+              <li>Evan s’est occupé du panier ainsi que des commandes</li>
+              <li>Johan s’est occupé des utilisateurs (création d’utilisateurs, modifications etc.)</li>
+              <li>Gabriel s’est occupé des produits vendu (guitares) ainsi que de la généralisation du CRUD avec Johan</li>
+              <li>Je me suis occupée de la page de promotion ainsi que de la sécurité du site et du CSS</li>
             </ul>
-          </ul>
 
-        </div>
+          </div>
 
-        <!-- Journée type  -->
-        
-        <div>
-          <h2>
-            Comment ça se passait ?
-          </h2>
+          <!-- Ce que j'ai aimé -->
+          
+          <div class="div_partie">
+            <h2>
+              Ce que j’ai aimé:
+            </h2>
 
-          <p>Nous faisions des réunions toutes les semaines afin de savoir où est était le site, si on avançait et si nous bloquions</p>
-          <p>Nous nous sommes inspirés d’un site : Thomann</p>
-          <p>Nous nous donnions les tâches à faire pour chaque personne:</p>
-          <ul class="ul_list-inside">
-            <li>Evan s’est occupé du panier ainsi que des commandes</li>
-            <li>Johan s’est occupé des utilisateurs (création d’utilisateurs, modifications etc.)</li>
-            <li>Gabriel s’est occupé des produits vendu (guitares) ainsi que de la généralisation du CRUD avec Johan</li>
-            <li>Je me suis occupée de la page de promotion ainsi que de la sécurité du site et du CSS</li>
-          </ul>
+            <p>L’équipe était agréable et tout le monde travaillait et s’entraidait</p>
+            <p>J’ai bien aimé ce projet car j’ai aimé faire du PHP et c’était bien de mettre en application nos TD dans une vrai situation</p>
+          </div>
 
-        </div>
+          <!-- Contraintes -->
+          
+          <div class="div_partie">
+            <h2>
+              Contraintes, ce que je n’ai pas aimé:
+            </h2>
 
-        <!-- Ce que j'ai aimé -->
-        
-        <div>
-          <h2>
-            Ce que j’ai aimé:
-          </h2>
+            <p>Compliqué de finir dans les temps étant donné que nous avons eu beaucoup de projets en même temps dans cette période</p>
+            <p>Je n’avais pas fini tous les TD avant donc ça a été compliqué de faire/comprendre comment les faire lors du projet. Je n’ai d’ailleurs pas réussi à faire certaines tâches qui m’étaient attribuée</p>
+          
+          </div>
 
-          <p>L’équipe était agréable et tout le monde travaillait et s’entraidait</p>
-          <p>J’ai bien aimé ce projet car j’ai aimé faire du PHP et c’était bien de mettre en application nos TD dans une vrai situation</p>
-        </div>
+          <!-- Ce que m'a apporté ce projet -->
+          
+          <div class="div_partie">
+            <h2>
+              Ce que m’a apporté ce projet:
+            </h2>
 
-        <!-- Contraintes -->
-        
-        <div>
-          <h2>
-            Contraintes, ce que je n’ai pas aimé:
-          </h2>
+            <p>J’ai appris à utiliser Bootstrap</p>
+            <p>J’ai pu créer mon premier site dynamique avec d’autres personnes</p>
+            <p>Apprendre le PHP, le modèle MVC, la sécurisation des sites, le CRUD</p>
+            <p>Je pense pouvoir être prête si je dois refaire ce type de site plus tard</p>
 
-          <p>Compliqué de finir dans les temps étant donné que nous avons eu beaucoup de projets en même temps dans cette période</p>
-          <p>Je n’avais pas fini tous les TD avant donc ça a été compliqué de faire/comprendre comment les faire lors du projet. Je n’ai d’ailleurs pas réussi à faire certaines tâches qui m’étaient attribuée</p>
-         
-        </div>
-
-        <!-- Ce que m'a apporté ce projet -->
-        
-        <div>
-          <h2>
-            Ce que m’a apporté ce projet:
-          </h2>
-
-          <p>J’ai appris à utiliser Bootstrap</p>
-          <p>J’ai pu créer mon premier site dynamique avec d’autres personnes</p>
-          <p>Apprendre le PHP, le modèle MVC, la sécurisation des sites, le CRUD</p>
-          <p>Je pense pouvoir être prête si je dois refaire ce type de site plus tard</p>
+          </div>
 
         </div>
 
