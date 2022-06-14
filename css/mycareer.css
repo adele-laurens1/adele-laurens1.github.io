@@ -3,7 +3,7 @@
 }
 
 html {
-    background: url("../pictures/background_accueil.webp") center;
+    background: url("../pictures/background/background_mycareer.webp") center;
     background-size: cover;
 }
 
@@ -96,27 +96,27 @@ p{
 
 
 .card:nth-of-type(1) .image-container {
-    background-image: url("../pictures/logo_college.png");
+    background-image: url("../pictures/mycareer/logo_college.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card:nth-of-type(2) .image-container {
-    background-image: url("../pictures/logo_college.png");
+    background-image: url("../pictures/mycareer/logo_college.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card:nth-of-type(3) .image-container {
-    background-image: url("../pictures/logo_univMontpellier.png");
+    background-image: url("../pictures/mycareer/logo_univMontpellier.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .card:nth-of-type(4) .image-container {
-    background-image: url("../pictures/logo_univLaRochelle.svg")
+    background-image: url("../pictures/mycareer/logo_univLaRochelle.svg")
 }
 
 
