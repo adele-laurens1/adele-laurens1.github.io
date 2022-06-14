@@ -1,8 +1,8 @@
-var slide = new Array("../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png", "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_2.png",
- "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_3.png", "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_4.png",
- "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_5.png", "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_6.png",
- "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_7.png", "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_8.png",
- "../../../pictures/caroussel/siteGuitare/caroussel_siteGuitare_9.png"
+var slide = new Array("/pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png", "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_2.png",
+ "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_3.png", "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_4.png",
+ "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_5.png", "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_6.png",
+ "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_7.png", "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_8.png",
+ "/pictures/caroussel/siteGuitare/caroussel_siteGuitare_9.png"
  );
 var numero = 0;
 

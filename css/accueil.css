@@ -1,5 +1,5 @@
 body {
-    background: url("../pictures/background/background_accueil.jpg") center;
+    background: url("/pictures/background/background_accueil.jpg") center;
     background-size: cover;
 }
 
@@ -36,6 +36,7 @@ button span {
     position: relative;
     transition: 0.5s;
 }
+
 button span:after {
     content: "\00bb";
     position: absolute;
