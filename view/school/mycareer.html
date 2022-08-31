@@ -16,9 +16,53 @@
 
   <body>
 
-    <header class="site-header" style="z-index: 2;">
+    <header class="site-header">
 
-      <nav>
+      <nav id="nav_tel_tablette">
+        <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">&times;</a>
+
+          <ul>
+            <li><a class="a_header" href="/view/accueil.html">Accueil</a></li>
+
+            <li id="click_aboutme">
+              A propos de moi
+            </li>
+            <ul id="sub-menu-aboutme">
+              <li><a class="sub_a_header" href="/view/aboutMe/myPersonnality.html">Mes traits de personnalité</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/hobbies.html">Mes centres d'intérêts, activités et loisirs</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
+            </ul>
+            
+
+            <li id="click_school">
+              A propos de mon parcours
+            </li>
+            <ul id="sub-menu-school">
+              <li><a class="sub_a_header" href="/view/school/mycareer.html">Mon parcours</a></li>
+              <li><a class="sub_a_header" href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+            </ul>
+
+            <li>
+              <a class="a_header" href="/view/CV.html">Mon CV</a>
+            </li>
+          </ul>
+
+        </div>
+        
+        <div  id="div-span">
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+        </div>
+      </nav>
+
+      <nav id="nav_pc">
         <ul class="menu">
 
           <li>
@@ -50,7 +94,7 @@
         </ul>
       </nav>
     
-    </header>   
+    </header>
 
     <main class="site-content">
           
@@ -104,7 +148,7 @@
 
             <p class="niv_etude">Etudes supérieures (L3)</p>
 
-            <p class="text_caroussel">Je suis actuellement en L3 informatique à l’université de La Rochelle (17400)</p>
+            <p class="text_caroussel">J'ai eu ma L3 informatique à l’université de La Rochelle (17400)</p>
 
           </div>
 
@@ -115,7 +159,7 @@
 
             <p class="niv_etude">Etudes supérieures (Master)</p>
 
-            <p class="text_caroussel">Je compte intégrer un Master en génie logiciel</p>
+            <p class="text_caroussel">Je qui actuellement en Master 1 à l'université de Bordeaux</p>
 
           </div>
 
@@ -143,5 +187,5 @@
   </body>
 
 </html>
-
+<script src="/js/page.js"></script>
 <script src="/js/mycareer.js"></script>

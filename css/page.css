@@ -17,6 +17,10 @@ ul{
     text-decoration:none; 
 }
 
+/* ******************** NAV BAR pour pc ******************** */
+
+
+
 .menu > li {
     float: left;
     color: #6FD08C;
@@ -64,6 +68,95 @@ ul{
     transform: scale(1);
 }
 
+
+
+
+
+
+
+/* ******************** NAV BAR pour tel + tablette ******************** */
+/* Sidenav menu */
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+
+#click_aboutme{
+    background-color: 
+    rgba(0, 0, 0, 0.3);
+}
+
+#click_school{
+    background-color: 
+    rgba(0, 0, 0, 0.3);
+}
+
+.sidenav li{
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #6FD08C;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub_a_header{
+    color: #7B9EA8;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-top: 6px;
+}
+
+#div-span{
+    border-radius: 10px;
+    width: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: #e8e8e8;
+}
+
+
 /* ------------------------ body ----------------------------*/
 
 body {
@@ -74,33 +167,15 @@ body {
     font-family: "Helvetica Neue", sans-serif;
 }
 
-.contenant{
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-}
 
-h1{
-    font-size: 100px;
-    text-align: center;
-    margin-top: 40px;
-}
 
-h2{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
-p{
-    font-size: 25px;
-}
 
 /* ------------------------ footer ----------------------------*/
 
 footer {
     background: #6FD08C;
-    max-width: 100%;
+    max-width: 100vw;
 }
 
 .footer-content{
@@ -122,3 +197,181 @@ p#footer_text{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+
+
+/* ------------------------------ pour le responsive --------------------------------*/
+
+/*Pour tel*/
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 12.5px;
+    }
+    /*ok div_span*/
+    #div-span{
+        margin-top: 2vw;
+        margin-left: 2vw;
+
+        padding-left: 1.5vw;
+        padding-bottom: 1.5vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+
+    .contenant{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 5vw;
+    }
+}
+
+/*Pour tablette en mode portrait*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    h1{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 25px;
+    }
+    #div-span{
+        border-radius: 10px;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        width: 40px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+        padding-left: 1vw;
+        padding-bottom: 1vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+}
+
+/*Pour tablette en mode paysage*/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    h1{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 25px;
+    }
+    #div-span{
+        border-radius: 10px;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        width: 40px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+        padding-left: 1vw;
+        padding-bottom: 1vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+}
+
+/*Pour PC portable*/
+@media screen and (min-width: 1025) and (max-width: 1600px){
+    h1{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 25px;
+    }
+    #div-span{
+        border-radius: 10px;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        width: 40px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+        padding-left: 1vw;
+        padding-bottom: 1vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+}
+
+/*Pour PC avec tour*/
+@media screen and (min-width: 1601px){
+    /* tout est ok noramlement */
+
+    h1{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 25px;
+    }
+
+    #div-span{
+        border-radius: 10px;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        width: 40px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        background-color: #e8e8e8;
+        padding-left: 1vw;
+        padding-bottom: 1vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+
+    .contenant{
+        margin-left: 12.5vw;
+        margin-right: 12.5vw;
+        margin-bottom: 5vw;
+    }
+}
+

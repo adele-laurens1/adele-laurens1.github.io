@@ -11,38 +11,109 @@ p{
   color: #7B9EA8;
 }
 
-#div_texte_image{
-  display: flex;
-  margin-bottom: 5%;
-  justify-content : space-evenly;
-  align-items : center;
-  background-color: #E6EBFF;
+
+
+/* ------------------------------------------------------- responsive ------------------------------------------------------ */
+
+/*Pour tel*/
+@media screen and (max-width: 480px){
+
+  /* ok jusq'ua nuage de mot */
+  #div_texte_image{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content : space-evenly;
+    align-items : center;
+    background-color: #E6EBFF;
+  }
+  
+  #texte{
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  #nuageDeMot{
+    max-width: 50%;
+    height: auto;
+  }
+  
+  h2{
+    color: #E6C79C;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
 }
 
-#texte{
-  text-align: center;
-  max-width: 12%;
-  height: auto;
+
+/*Pour PC portable*/
+@media screen and (min-width: 1025) and (max-width: 1600px){
+  #div_texte_image{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content : space-evenly;
+    align-items : center;
+    background-color: #E6EBFF;
+  }
+  
+  #texte{
+    text-align: center;
+    max-width: 12%;
+    height: auto;
+  }
+  
+  #nuageDeMot{
+    max-width: 50%;
+    height: auto;
+  }
+  
+  h2{
+    color: #E6C79C;
+    font-weight: 700;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
 
-#nuageDeMot{
-  max-width: 50%;
-  height: auto;
+/*Pour PC avec tour*/
+@media screen and (min-width: 1601px){
+  #div_texte_image{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content : space-evenly;
+    align-items : center;
+    background-color: #E6EBFF;
+  }
+  
+  #texte{
+    text-align: center;
+    max-width: 12%;
+    height: auto;
+  }
+  
+  #nuageDeMot{
+    max-width: 50%;
+    height: auto;
+  }
+  
+  h2{
+    color: #E6C79C;
+    font-weight: 700;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
 
-.d-block, h2{
-  color: #E6C79C;
-  font-weight: 700;
-  font-size: 50px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 20px;
-}
 
-.contenant{
-  margin-bottom: 5%;
-}
 
 /* ============= Begin Testimonial Flexbox ============ */
 #flex-container {
@@ -218,7 +289,6 @@ input:checked ~ .content-test {
 /* If the screen size is 480px or less */
 @media (max-width: 480px) {
   .content_testimonial-1 {
-    width: 480px;
     padding-top: 100px;
   }
   .content_testimonial-2 {

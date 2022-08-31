@@ -43,11 +43,6 @@ ul.ul_list-inside > li{
 }
 
 
-
-.contenant{
-    margin-bottom: 5%;
-}
-
 /* caroussel d'image */
 div#slider > img{
     max-width : 100%;

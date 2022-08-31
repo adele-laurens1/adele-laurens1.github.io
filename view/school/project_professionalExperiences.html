@@ -15,9 +15,53 @@
 
   <body>
 
-    <header class="site-header" style="z-index: 2;">
+    <header class="site-header">
 
-      <nav>
+      <nav id="nav_tel_tablette">
+        <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">&times;</a>
+
+          <ul>
+            <li><a class="a_header" href="/view/accueil.html">Accueil</a></li>
+
+            <li id="click_aboutme">
+              A propos de moi
+            </li>
+            <ul id="sub-menu-aboutme">
+              <li><a class="sub_a_header" href="/view/aboutMe/myPersonnality.html">Mes traits de personnalité</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/hobbies.html">Mes centres d'intérêts, activités et loisirs</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/mySkill.html">Mes compétences</a></li>
+              <li><a class="sub_a_header" href="/view/aboutMe/music.html">Une musique qui me représente</a></li>
+            </ul>
+            
+
+            <li id="click_school">
+              A propos de mon parcours
+            </li>
+            <ul id="sub-menu-school">
+              <li><a class="sub_a_header" href="/view/school/mycareer.html">Mon parcours</a></li>
+              <li><a class="sub_a_header" href="/view/school/project_professionalExperiences.html">Mes projets et expériences professionnelles </a></li>
+            </ul>
+
+            <li>
+              <a class="a_header" href="/view/CV.html">Mon CV</a>
+            </li>
+          </ul>
+
+        </div>
+        
+        <div  id="div-span">
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+        </div>
+      </nav>
+
+      <nav id="nav_pc">
         <ul class="menu">
 
           <li>
@@ -146,10 +190,10 @@
 
               <li class="item">
                 <input type="radio" id="radio_testimonial-6" name="basic_carousel" />
-                <label class="label_testimonial-6" for="radio_testimonial-6">Projet S3: création d'un jeu basé sur "Cube Escape"</label>
+                <label class="label_testimonial-6" for="radio_testimonial-6">Projet S3: "Cube Escape"</label>
                 <div class="content-test content_testimonial-6">
                   <span class="picto"></span>
-                  <h3>Projet S3: création d'un jeu basé sur "Cube Escape"</h3>
+                  <h3>Projet S3: "Cube Escape"</h3>
                   <p>
                     Notre groupe de 4 personnes a créé un jeu sur IntelliJ IDEA en javaFX à l’aide d’un scene builder. 
                     Nous avons créé un scénario futuriste et engagé qui a servi de support à l’élaboration du jeu.
@@ -240,3 +284,4 @@
 </html>
 
 <script src="/js/project_professionalExperiences.js"></script>
+<script src="/js/page.js"></script>
