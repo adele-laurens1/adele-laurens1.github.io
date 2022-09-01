@@ -59,45 +59,26 @@ button:hover span:after {
     right: 0;
 }
 
+iframe{
+    width: 45vw;
+    height: 25vw;
+}
+
+
 /* ------------------------------ pour le responsive --------------------------------*/
 
 /*Pour tel*/
-@media screen and (max-width: 480px){
-    iframe{
-        width: 300px;
-        height: 200px;
+@media screen and (max-width: 549px){
+    h2{
+        font-size: 15px;
     }
 }
 
-/*Pour tablette en mode portrait*/
-@media screen and (min-width: 481px) and (max-width: 768px){
-    iframe{
-        width: 600px;
-        height: 400px;
-    }
-}
+@media screen and (min-width: 550px) and (max-width: 699px){
 
-/*Pour tablette en mode paysage*/
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    iframe{
-        width: 600px;
-        height: 400px;
+    h2{
+        font-size: 20px;
     }
-}
 
-/*Pour PC portable*/
-@media screen and (min-width: 1025) and (max-width: 1600px){
-    iframe{
-        width: 600px;
-        height: 400px;
-    }
-}
-
-/*Pour PC avec tour*/
-@media screen and (min-width: 1601px){
-    iframe{
-        width: 1180px;
-        height: 664px;
-    }
 }
 
