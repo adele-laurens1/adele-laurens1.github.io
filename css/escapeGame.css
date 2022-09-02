@@ -46,13 +46,13 @@ ul.ul_list-inside > li{
 /* caroussel d'image */
 div#slider > img{
     object-fit: cover;
-    width: 80vw;
+    width: 60vw;
+    padding-left: 5vw;
 }
 
 #slider {
     position: relative;
-    width: 1200px;
-    margin: auto;
+    width: 70vw;
     display: flex;
     align-items: center;
 }
@@ -63,7 +63,7 @@ div#slider > img{
     transition: opacity 0.3s ease;
     opacity: 0;
     position: absolute;
-    font-size: 100px;
+    font-size: 6.2vw;
     color: rgba(220, 220, 220, 0.8);
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
