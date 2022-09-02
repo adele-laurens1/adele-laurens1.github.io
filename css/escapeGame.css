@@ -45,10 +45,8 @@ ul.ul_list-inside > li{
 
 /* caroussel d'image */
 div#slider > img{
-    max-width : 100%;
-    height : auto;
-    width: 1200px;
     object-fit: cover;
+    width: 80vw;
 }
 
 #slider {

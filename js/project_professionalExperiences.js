@@ -32,3 +32,20 @@ function cycleTestimonials(index) {
 }
 //run the function
 cycleTestimonials(0);
+
+
+
+
+var screenWidth = screen.width;
+var screenHeight = screen.height;
+
+function select_nav(){
+    if(screenWidth <= 1141){
+        document.getElementById("flex-container").style.display = "none";
+    }
+    else{
+        document.getElementById("div_card").style.display = "none";
+    }
+}
+
+window.onload = select_nav();

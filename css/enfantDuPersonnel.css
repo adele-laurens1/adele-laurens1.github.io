@@ -22,9 +22,8 @@ p{
 }
 
 div#image_hopital > img{
-    max-height : 100%;
-    width : auto;
     object-fit: cover;
+    width: 80vw;
 }
 
 ul.ul_list-inside > li{

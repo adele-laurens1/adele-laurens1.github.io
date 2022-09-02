@@ -18,6 +18,138 @@ a{
   color: #78586F;
 }
 
+/*  ================ Pour les cartes (écran < 1145px ) =================== */
+
+
+.card {
+  background-color: white;
+  border-radius: 10px 10px;
+  margin-bottom: 5vw;
+}
+
+.header_card{
+  background-color: #f1f1f1;
+  border-radius: 10px 10px;
+}
+
+.a_card{
+  font-size: 10px;
+  color: white;
+}
+
+.place{
+  font-size: 12px;
+  color:#7366e6;
+  padding: 0vw 1vw 1vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.footer_card{
+  background-color: #616161;
+  padding: 1vw 1vw 1vw;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer p {
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.body_card p {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: #78586F;
+}
+
+.time{
+  color: #33475c;
+  padding: 1vw 1vw 1vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 16px;
+}
+
+#p_card_header_1{
+  color: #555e7b;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_2{
+  color: #b7d968;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_3{
+  color: #b576ad;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_4{
+  color: #e04644;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_5{
+  color: #fde47f;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_6{
+  color: #7ccce5;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_7{
+  color: #00dffc;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_8{
+  color: #eee0b7;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#p_card_header_9{
+  color: #555152;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-top: 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
 
 /* ============= Begin Testimonial Flexbox ============ */
 #flex-container {
@@ -34,7 +166,7 @@ a{
   align-items: center;
   width: 100%;
   min-height: 400px;
-  height: 110vh;
+  height: 70%;
   max-width: 1500px;
   margin: auto;
   background-color: #fff;
@@ -190,44 +322,10 @@ input:checked ~ .content-test {
     width: 65%;
   }
 }
-/* If the screen size is 480px or less */
-@media (max-width: 480px) {
-  .content_testimonial-1 .picto {
-    width: 480px;
-    padding-top: 100px;
-  }
-  .content_testimonial-2 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-3 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-4 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-5 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-6 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-7 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-8 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-9 .picto {
-    padding-top: 100px;
-  }
-  .item > label {
-    font-size: 1.3rem;
-  }
-}
 
 .content_testimonial-1 .picto {
-  height: 200px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/project_professionalExperiences/hopital_sainte_marie.webp");
   background-position: center;
@@ -241,8 +339,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-2 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/project_professionalExperiences/salle_de_classe.webp");
   background-position: center;
@@ -255,8 +353,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-3 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/caroussel/IHM/caroussel_IHM_1.PNG");
   background-position: center;
@@ -269,8 +367,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-4 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/project_professionalExperiences/site_echec_miniature.webp");
   background-position: center;
@@ -283,8 +381,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-5 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/caroussel/siteGuitare/caroussel_siteGuitare_1.png");
   background-position: center;
@@ -297,8 +395,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-6 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/caroussel/escapeGame/caroussel_escapeGame_1.png");
   background-position: center;
@@ -311,8 +409,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-7 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/project_professionalExperiences/logo_syneg_in.jpg");
   background-position: center;
@@ -325,8 +423,8 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-8 .picto {
-  height: 200px;
-  width: 200px;
+  height: 20vw;
+  width: 20vw;
   object-fit: cover;
   background-image: url("/pictures/project_professionalExperiences/serveuse_miniature.png");
   background-position: center;
@@ -339,8 +437,6 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-9 .picto {
-  height: 200px;
-  width: 200px;
   object-fit: cover;
 }
 
