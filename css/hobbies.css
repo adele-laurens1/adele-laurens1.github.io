@@ -1,6 +1,7 @@
 body{
     background: url("/pictures/background/background_hobbies.webp") center;
     background-size: cover;
+    overflow-x: hidden; 
 }
 
 h1{
@@ -34,4 +35,9 @@ p{
     padding-bottom: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.div_partie > p {
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
