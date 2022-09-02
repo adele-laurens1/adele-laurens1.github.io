@@ -20,25 +20,28 @@ p{
 
   /* ok jusq'ua nuage de mot */
   #div_texte_image{
-    display: flex;
     margin-bottom: 5%;
-    justify-content : space-evenly;
-    align-items : center;
     background-color: #E6EBFF;
   }
   
   #texte{
     text-align: center;
-    padding-left: 3%;
-    padding-right: 3%;
+    height: auto;
+    margin-block-start: 0px;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
   
   #nuageDeMot{
     max-width: 50%;
     height: auto;
+    display: block;
+    margin: 0px auto;
   }
   
   h2{
+    font-size: 15px;
     color: #E6C79C;
     font-weight: 700;
     display: block;
@@ -46,28 +49,85 @@ p{
     padding-bottom: 20px;
   }
 
+
+  /* pour le conteneur */
+  #flex-container{
+    min-height: 1050px !important;
+    flex-direction: row !important;
+    display: block !important;
+  }
+
 }
 
 
-/*Pour PC portable*/
-@media screen and (min-width: 1025) and (max-width: 1600px){
+/* pour le conteneur de mots me représentant */
+
+@media screen and (min-width: 481px) and (max-width: 900px){
+  
+  /* même chose qu'en dessous */
   #div_texte_image{
-    display: flex;
     margin-bottom: 5%;
-    justify-content : space-evenly;
-    align-items : center;
     background-color: #E6EBFF;
   }
   
   #texte{
     text-align: center;
-    max-width: 12%;
     height: auto;
+    margin-block-start: 0px;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
   
   #nuageDeMot{
     max-width: 50%;
     height: auto;
+    display: block;
+    margin: 0px auto;
+  }
+  
+  h2{
+    color: #E6C79C;
+    font-weight: 700;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  /* pour le conteneur */
+  .h2_container{
+    font-size: 20px;
+  }
+
+  .p_container{
+    font-size: 15px;
+  }
+
+}
+
+/*Pour PC portable*/
+@media screen and (min-width: 901px) and (max-width: 1600px){
+  #div_texte_image{
+    margin-bottom: 5%;
+    background-color: #E6EBFF;
+  }
+  
+  #texte{
+    text-align: center;
+    height: auto;
+    margin-block-start: 0px;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  #nuageDeMot{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
   }
   
   h2{
