@@ -24,7 +24,7 @@ button {
     margin: 0 auto;
     font-size: 28px;
     padding: 20px;
-    width: 400px;
+    width: 50vw;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -72,12 +72,20 @@ iframe{
     h2{
         font-size: 15px;
     }
+
+    button {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 699px){
 
     h2{
         font-size: 20px;
+    }
+
+    button {
+        font-size: 20px !important;
     }
 
 }
