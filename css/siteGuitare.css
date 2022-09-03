@@ -46,15 +46,14 @@ ul.ul_list-inside > li{
 /* caroussel d'image */
 
 #slide{
-    max-width : 100%;
-    width: 1100px;  
-    height : auto;
+    object-fit: cover;
+    width: 60vw;
+    padding-left: 5vw;
 }
 
 #slider {
     position: relative;
-    width: 1100px;
-    margin: auto;
+    width: 70vw;
     display: flex;
     align-items: center;
 }
@@ -64,9 +63,10 @@ ul.ul_list-inside > li{
     cursor: pointer;
     transition: opacity 0.3s ease;
     opacity: 0;
-    font-size: 100px;
-    color: #fde47f;
-    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    font-size: 6.2vw;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
 }
 
@@ -81,4 +81,109 @@ ul.ul_list-inside > li{
 #slider:hover #precedent,
 #slider:hover #suivant {
     opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------ pour le responsive --------------------------------*/
+
+/*Pour tel*/
+@media screen and (max-width: 549px){
+    h2{
+        font-size: 15px;
+    }
+
+    .div_partie > p{
+        font-size: 12px;
+    }
+    
+    .ul_list-inside li{
+        font-size: 12px;
+    }
+
+    .ul_list-inside li span{
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 699px){
+    h2{
+
+        font-size: 20px;
+    }
+
+    .div_partie > p{
+        font-size: 15px;
+    }
+    
+    .ul_list-inside li{
+        font-size: 15px;
+    }
+
+    .ul_list-inside li span{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 800px){
+    h2{
+        font-size: 25px;
+    }
+
+    .div_partie > p{
+        font-size: 20px;
+    }
+    
+    .ul_list-inside li{
+        font-size: 20px;
+    }
+
+    .ul_list-inside li span{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1024px){
+    h2{
+        font-size: 37.2px;
+    }
+
+    .div_partie > p{
+        font-size: 25px;
+    }
+    
+    .ul_list-inside li{
+        font-size: 25px;
+    }
+
+    .ul_list-inside li span{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    h2{
+        font-size: 50px;
+    }
+
+    .div_partie > p{
+        font-size: 30px;
+    }
+    
+    .ul_list-inside li{
+        font-size: 30px;
+    }
+
+    .ul_list-inside li span{
+        font-size: 30px;
+    }
 }
